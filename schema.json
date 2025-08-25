@@ -1,0 +1,8896 @@
+{
+  "dbo.AspNetRoleClaims": [
+    {
+      "name": "Id",
+      "type": "int"
+    },
+    {
+      "name": "RoleId",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ClaimType",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ClaimValue",
+      "type": "nvarchar"
+    }
+  ],
+  "dbo.AspNetRoles": [
+    {
+      "name": "Id",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Name",
+      "type": "nvarchar"
+    },
+    {
+      "name": "NormalizedName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ConcurrencyStamp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "IsVisibleToPalika",
+      "type": "bit"
+    }
+  ],
+  "dbo.AspNetUserClaims": [
+    {
+      "name": "Id",
+      "type": "int"
+    },
+    {
+      "name": "UserId",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ClaimType",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ClaimValue",
+      "type": "nvarchar"
+    }
+  ],
+  "dbo.AspNetUserLogins": [
+    {
+      "name": "LoginProvider",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ProviderKey",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ProviderDisplayName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UserId",
+      "type": "nvarchar"
+    }
+  ],
+  "dbo.AspNetUserRoles": [
+    {
+      "name": "UserId",
+      "type": "nvarchar"
+    },
+    {
+      "name": "RoleId",
+      "type": "nvarchar"
+    }
+  ],
+  "dbo.AspNetUserTokens": [
+    {
+      "name": "UserId",
+      "type": "nvarchar"
+    },
+    {
+      "name": "LoginProvider",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Name",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Value",
+      "type": "nvarchar"
+    }
+  ],
+  "dbo.AspNetUsers": [
+    {
+      "name": "Id",
+      "type": "nvarchar"
+    },
+    {
+      "name": "FirstName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "MiddleName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "LastName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ShortName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Gender",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DateOfBirth",
+      "type": "datetime2"
+    },
+    {
+      "name": "OTPCode",
+      "type": "nvarchar"
+    },
+    {
+      "name": "OTPCreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UserType",
+      "type": "int"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ProvinceId",
+      "type": "int"
+    },
+    {
+      "name": "DistrictId",
+      "type": "int"
+    },
+    {
+      "name": "MunicipalityId",
+      "type": "int"
+    },
+    {
+      "name": "UserName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "NormalizedUserName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Email",
+      "type": "nvarchar"
+    },
+    {
+      "name": "NormalizedEmail",
+      "type": "nvarchar"
+    },
+    {
+      "name": "EmailConfirmed",
+      "type": "bit"
+    },
+    {
+      "name": "PasswordHash",
+      "type": "nvarchar"
+    },
+    {
+      "name": "SecurityStamp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ConcurrencyStamp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "PhoneNumber",
+      "type": "nvarchar"
+    },
+    {
+      "name": "PhoneNumberConfirmed",
+      "type": "bit"
+    },
+    {
+      "name": "TwoFactorEnabled",
+      "type": "bit"
+    },
+    {
+      "name": "LockoutEnd",
+      "type": "datetimeoffset"
+    },
+    {
+      "name": "LockoutEnabled",
+      "type": "bit"
+    },
+    {
+      "name": "AccessFailedCount",
+      "type": "int"
+    },
+    {
+      "name": "InitialPasswordChanged",
+      "type": "bit"
+    }
+  ],
+  "dbo.AssistiveProducts": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "Name",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ISOCode",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DisabilityDomain",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Type",
+      "type": "int"
+    },
+    {
+      "name": "Explanation",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ImagePath",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ImageName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    }
+  ],
+  "dbo.AuditLogs": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "Action",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Module",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Data",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ActionDate",
+      "type": "datetime2"
+    },
+    {
+      "name": "UniqueIdentifier",
+      "type": "bigint"
+    },
+    {
+      "name": "UserId",
+      "type": "nvarchar"
+    }
+  ],
+  "dbo.ClassAndSubjectMappings": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "OrganizationId",
+      "type": "bigint"
+    },
+    {
+      "name": "Class",
+      "type": "nvarchar"
+    },
+    {
+      "name": "SubjectId",
+      "type": "int"
+    },
+    {
+      "name": "CreditHour",
+      "type": "decimal"
+    },
+    {
+      "name": "DisplaySequence",
+      "type": "int"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    },
+    {
+      "name": "FullWeightage",
+      "type": "decimal"
+    },
+    {
+      "name": "MajorThematicLearning",
+      "type": "decimal"
+    },
+    {
+      "name": "Participation",
+      "type": "decimal"
+    },
+    {
+      "name": "PracticalOrProject",
+      "type": "decimal"
+    },
+    {
+      "name": "TotalOfFinalMarks",
+      "type": "decimal"
+    },
+    {
+      "name": "TotalOfTerms",
+      "type": "decimal"
+    },
+    {
+      "name": "MunicipalityId",
+      "type": "int"
+    },
+    {
+      "name": "IsSchoolSpecific",
+      "type": "bit"
+    },
+    {
+      "name": "Code",
+      "type": "nvarchar"
+    }
+  ],
+  "dbo.ClassMaster": [
+    {
+      "name": "Name",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DisplayName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Value",
+      "type": "int"
+    },
+    {
+      "name": "ClassLevel",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DisplaySequence",
+      "type": "int"
+    }
+  ],
+  "dbo.DashboardCasteWiseCountDetails": [
+    {
+      "name": "Id",
+      "type": "int"
+    },
+    {
+      "name": "CasteId",
+      "type": "int"
+    },
+    {
+      "name": "BoysTotal",
+      "type": "int"
+    },
+    {
+      "name": "GirlsTotal",
+      "type": "int"
+    }
+  ],
+  "dbo.DashboardSchoolWiseGenderCounts": [
+    {
+      "name": "Id",
+      "type": "int"
+    },
+    {
+      "name": "OrganizationId",
+      "type": "bigint"
+    },
+    {
+      "name": "Ecd_Male",
+      "type": "int"
+    },
+    {
+      "name": "Ecd_Female",
+      "type": "int"
+    },
+    {
+      "name": "Grade1_Male",
+      "type": "int"
+    },
+    {
+      "name": "Grade1_Female",
+      "type": "int"
+    },
+    {
+      "name": "Grade2_Male",
+      "type": "int"
+    },
+    {
+      "name": "Grade2_Female",
+      "type": "int"
+    },
+    {
+      "name": "Grade3_Male",
+      "type": "int"
+    },
+    {
+      "name": "Grade3_Female",
+      "type": "int"
+    },
+    {
+      "name": "Grade4_Male",
+      "type": "int"
+    },
+    {
+      "name": "Grade4_Female",
+      "type": "int"
+    },
+    {
+      "name": "Grade5_Male",
+      "type": "int"
+    },
+    {
+      "name": "Grade5_Female",
+      "type": "int"
+    },
+    {
+      "name": "Grade6_Male",
+      "type": "int"
+    },
+    {
+      "name": "Grade6_Female",
+      "type": "int"
+    },
+    {
+      "name": "Grade7_Male",
+      "type": "int"
+    },
+    {
+      "name": "Grade7_Female",
+      "type": "int"
+    },
+    {
+      "name": "Grade8_Male",
+      "type": "int"
+    },
+    {
+      "name": "Grade8_Female",
+      "type": "int"
+    },
+    {
+      "name": "Grade9_Male",
+      "type": "int"
+    },
+    {
+      "name": "Grade9_Female",
+      "type": "int"
+    },
+    {
+      "name": "Grade10_Male",
+      "type": "int"
+    },
+    {
+      "name": "Grade10_Female",
+      "type": "int"
+    },
+    {
+      "name": "Grade11_Male",
+      "type": "int"
+    },
+    {
+      "name": "Grade11_Female",
+      "type": "int"
+    },
+    {
+      "name": "Grade12_Male",
+      "type": "int"
+    },
+    {
+      "name": "Grade12_Female",
+      "type": "int"
+    },
+    {
+      "name": "LasUpdated",
+      "type": "datetime2"
+    }
+  ],
+  "dbo.DisabilityQuestionnaireEntryInfotmations": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "OrganizationId",
+      "type": "bigint"
+    },
+    {
+      "name": "StudentInformationId",
+      "type": "bigint"
+    },
+    {
+      "name": "StudentClassHistoryId",
+      "type": "bigint"
+    },
+    {
+      "name": "Year",
+      "type": "int"
+    },
+    {
+      "name": "DateOfBirth",
+      "type": "nvarchar"
+    },
+    {
+      "name": "AgeGroup",
+      "type": "int"
+    },
+    {
+      "name": "WearGlasses",
+      "type": "bit"
+    },
+    {
+      "name": "HasDifficultyToSeeWhenUsingGlass",
+      "type": "int"
+    },
+    {
+      "name": "HasDifficultyToSee",
+      "type": "int"
+    },
+    {
+      "name": "UseHearingInstrument",
+      "type": "bit"
+    },
+    {
+      "name": "HasProblemToHearWhenUsingInstrument",
+      "type": "int"
+    },
+    {
+      "name": "HasProblemToHear",
+      "type": "int"
+    },
+    {
+      "name": "UsesWalkingInstrument",
+      "type": "int"
+    },
+    {
+      "name": "HasProblemToWalkWithoutUsingInstrument",
+      "type": "int"
+    },
+    {
+      "name": "HasProblemToWalkWhenUsingInstrument",
+      "type": "int"
+    },
+    {
+      "name": "HasProblemToWalk500mWithoutUsingInstrument",
+      "type": "int"
+    },
+    {
+      "name": "HasProblemToWalk100mUsingInstrument",
+      "type": "int"
+    },
+    {
+      "name": "HasProblemToWalk500mUsingInstrument",
+      "type": "int"
+    },
+    {
+      "name": "HasProblemToWalkComparedToOther",
+      "type": "int"
+    },
+    {
+      "name": "HasProblemToWalk500mComparedToOther",
+      "type": "int"
+    },
+    {
+      "name": "HasProblemToLiftObjectAsComparedToOther",
+      "type": "int"
+    },
+    {
+      "name": "HasProblemToUnderstandWhatYouSay",
+      "type": "int"
+    },
+    {
+      "name": "HasProblemWhileSpeakingClearly",
+      "type": "int"
+    },
+    {
+      "name": "HasProblemToLearnComparedToOther",
+      "type": "int"
+    },
+    {
+      "name": "HasProblemToPlayComparedToOther",
+      "type": "int"
+    },
+    {
+      "name": "DoesMischiviousActComparedToOther",
+      "type": "int"
+    },
+    {
+      "name": "HasProblemToTakeCareOfThemSelf",
+      "type": "int"
+    },
+    {
+      "name": "HasProblemForFamilyMembersToUnderstandSpokenWords",
+      "type": "int"
+    },
+    {
+      "name": "HasProblemForOtherToUnderstandSpokenWords",
+      "type": "int"
+    },
+    {
+      "name": "HasProblemToRememberComparedToOther",
+      "type": "int"
+    },
+    {
+      "name": "HasProblemToConcentrate",
+      "type": "int"
+    },
+    {
+      "name": "HasProblemToAdaptDailyRoutineChange",
+      "type": "int"
+    },
+    {
+      "name": "HasProblemToControlBehaviorComparedToOther",
+      "type": "int"
+    },
+    {
+      "name": "HasProblemToMakeFriends",
+      "type": "int"
+    },
+    {
+      "name": "HowMuchNervousOrWorried",
+      "type": "int"
+    },
+    {
+      "name": "HowMuchSadAndDissapointed",
+      "type": "int"
+    },
+    {
+      "name": "IsVisuallySuspected",
+      "type": "bit"
+    },
+    {
+      "name": "IsHearingSuspected",
+      "type": "bit"
+    },
+    {
+      "name": "IsWalkingSuspected",
+      "type": "bit"
+    },
+    {
+      "name": "IsFineMotorSuspected",
+      "type": "bit"
+    },
+    {
+      "name": "IsCommunicationSuspected",
+      "type": "bit"
+    },
+    {
+      "name": "IsLearningSuspected",
+      "type": "bit"
+    },
+    {
+      "name": "IsPlayingSuspected",
+      "type": "bit"
+    },
+    {
+      "name": "IsControllingBehaviorSuspected",
+      "type": "bit"
+    },
+    {
+      "name": "IsSelfCaringSuspected",
+      "type": "bit"
+    },
+    {
+      "name": "IsRememberingSuspected",
+      "type": "bit"
+    },
+    {
+      "name": "IsConcentratingSuspected",
+      "type": "bit"
+    },
+    {
+      "name": "IsAcceptingChangeSuspected",
+      "type": "bit"
+    },
+    {
+      "name": "IsMakingFriendsSuspected",
+      "type": "bit"
+    },
+    {
+      "name": "IsAnxietySuspected",
+      "type": "bit"
+    },
+    {
+      "name": "IsDepressionSuspected",
+      "type": "bit"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    },
+    {
+      "name": "ReferredOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "ReferredOnNp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ServiceProvider",
+      "type": "int"
+    },
+    {
+      "name": "ServiceProviderAddress",
+      "type": "nvarchar"
+    },
+    {
+      "name": "SuspectedDate",
+      "type": "datetime2"
+    },
+    {
+      "name": "SuspectedDateNp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ConfirmedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ConfirmedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "ConfirmedOnNp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DisabilityType",
+      "type": "int"
+    },
+    {
+      "name": "IsConfirmed",
+      "type": "bit"
+    },
+    {
+      "name": "IsReferred",
+      "type": "bit"
+    }
+  ],
+  "dbo.District": [
+    {
+      "name": "Id",
+      "type": "int"
+    },
+    {
+      "name": "DistrictName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Code",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ProvinceId",
+      "type": "int"
+    },
+    {
+      "name": "IsActive",
+      "type": "bit"
+    },
+    {
+      "name": "DistrictNameNp",
+      "type": "nvarchar"
+    }
+  ],
+  "dbo.Documents": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "Identifier",
+      "type": "bigint"
+    },
+    {
+      "name": "OrganizationId",
+      "type": "bigint"
+    },
+    {
+      "name": "FileName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "FilePath",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Type",
+      "type": "int"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    }
+  ],
+  "dbo.DownloadResources": [
+    {
+      "name": "Id",
+      "type": "int"
+    },
+    {
+      "name": "Title",
+      "type": "nvarchar"
+    },
+    {
+      "name": "FileName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "FilePath",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Description",
+      "type": "nvarchar"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    }
+  ],
+  "dbo.EIEAlternateLearningInfo": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "LearningInfoDate",
+      "type": "datetime2"
+    },
+    {
+      "name": "LearningInfoDateNp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "EIEBasicInformationId",
+      "type": "bigint"
+    },
+    {
+      "name": "Class",
+      "type": "nvarchar"
+    },
+    {
+      "name": "TextBook",
+      "type": "int"
+    },
+    {
+      "name": "SelfLearningMaterial",
+      "type": "int"
+    },
+    {
+      "name": "ToleSikai",
+      "type": "bit"
+    },
+    {
+      "name": "Volunteers",
+      "type": "bit"
+    },
+    {
+      "name": "OfflineMaterial",
+      "type": "bit"
+    },
+    {
+      "name": "ClusterUserGroup",
+      "type": "bit"
+    },
+    {
+      "name": "Television",
+      "type": "bit"
+    },
+    {
+      "name": "Radious",
+      "type": "bit"
+    },
+    {
+      "name": "OnlineClasses",
+      "type": "bit"
+    },
+    {
+      "name": "LearningPortal",
+      "type": "bit"
+    },
+    {
+      "name": "YoutubeChannel",
+      "type": "bit"
+    },
+    {
+      "name": "EclassNepal",
+      "type": "bit"
+    },
+    {
+      "name": "RemedialInstruction",
+      "type": "bit"
+    },
+    {
+      "name": "TutorialClass",
+      "type": "bit"
+    },
+    {
+      "name": "AdditionalClass",
+      "type": "bit"
+    },
+    {
+      "name": "Other",
+      "type": "bit"
+    },
+    {
+      "name": "Remarks",
+      "type": "nvarchar"
+    },
+    {
+      "name": "OrganizationId",
+      "type": "bigint"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    }
+  ],
+  "dbo.EIEBasicInformations": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "OrganizationId",
+      "type": "bigint"
+    },
+    {
+      "name": "DisasterType",
+      "type": "int"
+    },
+    {
+      "name": "AffectedStudentWithDisability",
+      "type": "int"
+    },
+    {
+      "name": "OpenStatus",
+      "type": "int"
+    },
+    {
+      "name": "DisasterDateTime",
+      "type": "datetime2"
+    },
+    {
+      "name": "DisasterDateTimeNp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "AffectedMale",
+      "type": "int"
+    },
+    {
+      "name": "AffectedFemale",
+      "type": "int"
+    },
+    {
+      "name": "AffectedOther",
+      "type": "int"
+    },
+    {
+      "name": "DeathMale",
+      "type": "int"
+    },
+    {
+      "name": "DeathFemale",
+      "type": "int"
+    },
+    {
+      "name": "DeathOther",
+      "type": "int"
+    },
+    {
+      "name": "Remarks",
+      "type": "nvarchar"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    },
+    {
+      "name": "AffectedStudentFemale",
+      "type": "int"
+    },
+    {
+      "name": "AffectedStudentMale",
+      "type": "int"
+    },
+    {
+      "name": "AffectedStudentOther",
+      "type": "int"
+    },
+    {
+      "name": "AlternateSchoolTimingFrom",
+      "type": "nvarchar"
+    },
+    {
+      "name": "AlternateSchoolTimingTo",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ClosedDate",
+      "type": "datetime2"
+    },
+    {
+      "name": "ClosedDateNp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ClosedUntil",
+      "type": "datetime2"
+    },
+    {
+      "name": "ClosedUntilNp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "HouseholdAccomodated",
+      "type": "int"
+    },
+    {
+      "name": "IsSchoolUsedAsTemporaryShelter",
+      "type": "bit"
+    },
+    {
+      "name": "LearningContinuityApproach",
+      "type": "int"
+    },
+    {
+      "name": "PeopleAccomodated",
+      "type": "int"
+    },
+    {
+      "name": "PlannedOpenDate",
+      "type": "datetime2"
+    },
+    {
+      "name": "PlannedOpenDateNp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ReasonForSchoolClosure",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DisasterOtherDetails",
+      "type": "nvarchar"
+    }
+  ],
+  "dbo.EIEDetailByAffectedTypes": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "EIEBasicInformationId",
+      "type": "bigint"
+    },
+    {
+      "name": "AffectedType",
+      "type": "int"
+    },
+    {
+      "name": "Class",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Boys",
+      "type": "int"
+    },
+    {
+      "name": "Girls",
+      "type": "int"
+    },
+    {
+      "name": "ThirdGender",
+      "type": "int"
+    },
+    {
+      "name": "ChildrenWithDisability",
+      "type": "int"
+    },
+    {
+      "name": "TeachersMale",
+      "type": "int"
+    },
+    {
+      "name": "TeachersFemale",
+      "type": "int"
+    },
+    {
+      "name": "TeachersThirdGender",
+      "type": "int"
+    },
+    {
+      "name": "TeachersWithDisability",
+      "type": "int"
+    },
+    {
+      "name": "OtherStaffMale",
+      "type": "int"
+    },
+    {
+      "name": "OtherStaffFemale",
+      "type": "int"
+    },
+    {
+      "name": "OtherStaffThirdGender",
+      "type": "int"
+    },
+    {
+      "name": "OtherStaffWithDisability",
+      "type": "int"
+    }
+  ],
+  "dbo.EIEInfrastructureLoss": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "LossDate",
+      "type": "datetime2"
+    },
+    {
+      "name": "LossDateNp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "InfrastructureLossType",
+      "type": "int"
+    },
+    {
+      "name": "DamageType",
+      "type": "int"
+    },
+    {
+      "name": "EstimatedLossAmount",
+      "type": "float"
+    },
+    {
+      "name": "Remarks",
+      "type": "nvarchar"
+    },
+    {
+      "name": "EIEBasicInformationId",
+      "type": "bigint"
+    },
+    {
+      "name": "OrganizationId",
+      "type": "bigint"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    },
+    {
+      "name": "AnyDamageInformationInNarrative",
+      "type": "nvarchar"
+    },
+    {
+      "name": "AnySupportInformationInNarrative",
+      "type": "nvarchar"
+    },
+    {
+      "name": "IsThereNeedOfPsychosocialSupport",
+      "type": "bit"
+    },
+    {
+      "name": "MaterialType",
+      "type": "nvarchar"
+    },
+    {
+      "name": "NumberOfCarpets",
+      "type": "int"
+    },
+    {
+      "name": "NumberOfClassrooms",
+      "type": "int"
+    },
+    {
+      "name": "NumberOfDrinkingWater",
+      "type": "int"
+    },
+    {
+      "name": "NumberOfHandWashingStation",
+      "type": "int"
+    },
+    {
+      "name": "NumberOfHrRequired",
+      "type": "int"
+    },
+    {
+      "name": "NumberOfLabEquipments",
+      "type": "int"
+    },
+    {
+      "name": "NumberOfSchoolBuilding",
+      "type": "int"
+    },
+    {
+      "name": "NumberOfSchoolFurniture",
+      "type": "int"
+    },
+    {
+      "name": "NumberOfTables",
+      "type": "int"
+    },
+    {
+      "name": "NumberOfToilets",
+      "type": "int"
+    },
+    {
+      "name": "Quantity",
+      "type": "int"
+    },
+    {
+      "name": "SchoolBoundaryWall",
+      "type": "int"
+    },
+    {
+      "name": "SchoolGate",
+      "type": "int"
+    },
+    {
+      "name": "SchoolGround",
+      "type": "int"
+    },
+    {
+      "name": "SupplyNeedBasicForBoys",
+      "type": "int"
+    },
+    {
+      "name": "SupplyNeedBasicForGirls",
+      "type": "int"
+    },
+    {
+      "name": "SupplyNeedEcedForBoys",
+      "type": "int"
+    },
+    {
+      "name": "SupplyNeedEcedForGirls",
+      "type": "int"
+    },
+    {
+      "name": "SupplyNeedPrimaryForBoys",
+      "type": "int"
+    },
+    {
+      "name": "SupplyNeedPrimaryForGirls",
+      "type": "int"
+    },
+    {
+      "name": "SupplyNeedSecondaryForBoys",
+      "type": "int"
+    },
+    {
+      "name": "SupplyNeedSecondaryForGirls",
+      "type": "int"
+    },
+    {
+      "name": "SupplyNeedTeacherFemale",
+      "type": "int"
+    },
+    {
+      "name": "SupplyNeedTeacherMale",
+      "type": "int"
+    },
+    {
+      "name": "TentativeBudgetRequired",
+      "type": "int"
+    },
+    {
+      "name": "TypeOfInfrastructureDamage",
+      "type": "nvarchar"
+    },
+    {
+      "name": "TypeOfNonInfrastructureDamage",
+      "type": "nvarchar"
+    },
+    {
+      "name": "TypeOfOtherNecessarySupport",
+      "type": "int"
+    }
+  ],
+  "dbo.EIESourceClass": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "ResourceClass",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Volunteer",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Materials",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Level",
+      "type": "int"
+    },
+    {
+      "name": "MaleCount",
+      "type": "int"
+    },
+    {
+      "name": "FemaleCount",
+      "type": "int"
+    },
+    {
+      "name": "OtherCount",
+      "type": "int"
+    },
+    {
+      "name": "NeedForStudyMaterials",
+      "type": "int"
+    },
+    {
+      "name": "SchoolReopen",
+      "type": "datetime2"
+    },
+    {
+      "name": "SchoolReopenNp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Remarks",
+      "type": "nvarchar"
+    },
+    {
+      "name": "HealthGuidelinesMet",
+      "type": "bit"
+    },
+    {
+      "name": "OrganizationId",
+      "type": "bigint"
+    },
+    {
+      "name": "EIEBasicInformationId",
+      "type": "bigint"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    }
+  ],
+  "dbo.EducationResponsePlans": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "OrganizationId",
+      "type": "bigint"
+    },
+    {
+      "name": "StudentInformationId",
+      "type": "bigint"
+    },
+    {
+      "name": "StudentClassHistoryId",
+      "type": "bigint"
+    },
+    {
+      "name": "DisabilityType",
+      "type": "int"
+    },
+    {
+      "name": "SeverityType",
+      "type": "int"
+    },
+    {
+      "name": "StudentEducationalRequirement",
+      "type": "bit"
+    },
+    {
+      "name": "ClassroomMaintainance",
+      "type": "bit"
+    },
+    {
+      "name": "ReferralRelated",
+      "type": "bit"
+    },
+    {
+      "name": "Scholarship",
+      "type": "bit"
+    },
+    {
+      "name": "IndividualEducationPlan",
+      "type": "bit"
+    },
+    {
+      "name": "NeedParentHelpWhileWorking",
+      "type": "bit"
+    },
+    {
+      "name": "HelpingItem",
+      "type": "bit"
+    },
+    {
+      "name": "House",
+      "type": "bit"
+    },
+    {
+      "name": "OtherStudentEducationalRequirement",
+      "type": "bit"
+    },
+    {
+      "name": "IfOtherStudentEducationalRequirement",
+      "type": "nvarchar"
+    },
+    {
+      "name": "SpecialSchoolRequirement",
+      "type": "bit"
+    },
+    {
+      "name": "NeedSeparateClassroom",
+      "type": "bit"
+    },
+    {
+      "name": "AvailabilityOfAccess",
+      "type": "bit"
+    },
+    {
+      "name": "AvailabilityOfSeatingArrangement",
+      "type": "bit"
+    },
+    {
+      "name": "AvailabilityOfSpecialTeachingMaterials",
+      "type": "bit"
+    },
+    {
+      "name": "AvailabilityForSpecialHelpInExaminations",
+      "type": "bit"
+    },
+    {
+      "name": "AvailabilityForAppropriateLight",
+      "type": "bit"
+    },
+    {
+      "name": "OtherClassroomMaintainance",
+      "type": "bit"
+    },
+    {
+      "name": "IfOtherClassroomMaintenance",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ReferralForMedicalOrOtherProfessionalEvaluation",
+      "type": "bit"
+    },
+    {
+      "name": "ReferralForSpecialSchoolOrSeparateClassroom",
+      "type": "bit"
+    },
+    {
+      "name": "ReferralForSupportiveMaterials",
+      "type": "bit"
+    },
+    {
+      "name": "ReferralForDisabilityIdentificationCard",
+      "type": "bit"
+    },
+    {
+      "name": "ReferralForPsychosocialCounseling",
+      "type": "bit"
+    },
+    {
+      "name": "ReferralForFamilyLivelihoodSupport",
+      "type": "bit"
+    },
+    {
+      "name": "OtherReferralRelated",
+      "type": "bit"
+    },
+    {
+      "name": "IfOtherReferralRelated",
+      "type": "nvarchar"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    }
+  ],
+  "dbo.EducationalProgramWithStudentAndStaffs": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "OrganizationId",
+      "type": "bigint"
+    },
+    {
+      "name": "HasPlusTwoProgram",
+      "type": "bit"
+    },
+    {
+      "name": "YearOfEstablishment",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Principal",
+      "type": "nvarchar"
+    },
+    {
+      "name": "PrincipalContactNumber",
+      "type": "nvarchar"
+    },
+    {
+      "name": "PrincipalEmail",
+      "type": "nvarchar"
+    },
+    {
+      "name": "AssistantPrincipal",
+      "type": "nvarchar"
+    },
+    {
+      "name": "AssistantPrincipalContactNumber",
+      "type": "nvarchar"
+    },
+    {
+      "name": "AssistantPrincipalEmail",
+      "type": "nvarchar"
+    },
+    {
+      "name": "TotalNumberOfTeachers",
+      "type": "int"
+    },
+    {
+      "name": "TotalNumberOfAdminStaffs",
+      "type": "int"
+    },
+    {
+      "name": "TotalNumberOfStaffs",
+      "type": "int"
+    },
+    {
+      "name": "TotalNumberOfBoys",
+      "type": "int"
+    },
+    {
+      "name": "TotalNumberOfGirls",
+      "type": "int"
+    },
+    {
+      "name": "TotalNumberOfStudents",
+      "type": "int"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    }
+  ],
+  "dbo.EnvironmentInformationQuestionnaries": [
+    {
+      "name": "Id",
+      "type": "int"
+    },
+    {
+      "name": "Question",
+      "type": "nvarchar"
+    },
+    {
+      "name": "EnvironmentInformationQuestionnarySectionId",
+      "type": "int"
+    },
+    {
+      "name": "DisplaySequence",
+      "type": "int"
+    }
+  ],
+  "dbo.EnvironmentInformationQuestionnarySections": [
+    {
+      "name": "Id",
+      "type": "int"
+    },
+    {
+      "name": "QuestionannarySectionType",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Header",
+      "type": "nvarchar"
+    },
+    {
+      "name": "SubHeader",
+      "type": "nvarchar"
+    }
+  ],
+  "dbo.EnvironmentalInformations": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "EnvironmentInformationQuestionnariesId",
+      "type": "int"
+    },
+    {
+      "name": "Value",
+      "type": "bit"
+    },
+    {
+      "name": "Remarks",
+      "type": "nvarchar"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    },
+    {
+      "name": "OrganizationId",
+      "type": "bigint"
+    }
+  ],
+  "dbo.EquityIndexInformations": [
+    {
+      "name": "Id",
+      "type": "int"
+    },
+    {
+      "name": "LocationId",
+      "type": "int"
+    },
+    {
+      "name": "LocationName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "LocationType",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Year",
+      "type": "int"
+    },
+    {
+      "name": "Ac_Pop_M",
+      "type": "bigint"
+    },
+    {
+      "name": "Ac_Pop_F",
+      "type": "bigint"
+    },
+    {
+      "name": "Ac_Pop_T",
+      "type": "bigint"
+    },
+    {
+      "name": "Ac_Emis_M",
+      "type": "bigint"
+    },
+    {
+      "name": "Ac_Emis_F",
+      "type": "bigint"
+    },
+    {
+      "name": "Ac_Emis_T",
+      "type": "bigint"
+    },
+    {
+      "name": "Ac_Cm",
+      "type": "decimal"
+    },
+    {
+      "name": "Ac_Cf",
+      "type": "decimal"
+    },
+    {
+      "name": "Ac_C",
+      "type": "decimal"
+    },
+    {
+      "name": "Ac_Wm",
+      "type": "decimal"
+    },
+    {
+      "name": "Ac_Wf",
+      "type": "decimal"
+    },
+    {
+      "name": "L_Pop_M",
+      "type": "bigint"
+    },
+    {
+      "name": "L_Pop_F",
+      "type": "bigint"
+    },
+    {
+      "name": "L_Pop_T",
+      "type": "bigint"
+    },
+    {
+      "name": "L_Emis_M",
+      "type": "bigint"
+    },
+    {
+      "name": "L_Emis_F",
+      "type": "bigint"
+    },
+    {
+      "name": "L_Emis_T",
+      "type": "bigint"
+    },
+    {
+      "name": "L_Cm",
+      "type": "decimal"
+    },
+    {
+      "name": "L_Cf",
+      "type": "decimal"
+    },
+    {
+      "name": "L_C",
+      "type": "decimal"
+    },
+    {
+      "name": "L_Wm",
+      "type": "decimal"
+    },
+    {
+      "name": "L_Wf",
+      "type": "decimal"
+    },
+    {
+      "name": "T_P12",
+      "type": "decimal"
+    },
+    {
+      "name": "T_R12",
+      "type": "decimal"
+    },
+    {
+      "name": "T_P23",
+      "type": "decimal"
+    },
+    {
+      "name": "T_R23",
+      "type": "decimal"
+    },
+    {
+      "name": "T_P34",
+      "type": "decimal"
+    },
+    {
+      "name": "T_R34",
+      "type": "decimal"
+    },
+    {
+      "name": "T_P45",
+      "type": "decimal"
+    },
+    {
+      "name": "T_R45",
+      "type": "decimal"
+    },
+    {
+      "name": "T_P56",
+      "type": "decimal"
+    },
+    {
+      "name": "T_R56",
+      "type": "decimal"
+    },
+    {
+      "name": "T_P67",
+      "type": "decimal"
+    },
+    {
+      "name": "T_R67",
+      "type": "decimal"
+    },
+    {
+      "name": "T_P78",
+      "type": "decimal"
+    },
+    {
+      "name": "T_R78",
+      "type": "decimal"
+    },
+    {
+      "name": "P_C",
+      "type": "decimal"
+    },
+    {
+      "name": "D_P12",
+      "type": "decimal"
+    },
+    {
+      "name": "D_R12",
+      "type": "decimal"
+    },
+    {
+      "name": "D_P23",
+      "type": "decimal"
+    },
+    {
+      "name": "D_R23",
+      "type": "decimal"
+    },
+    {
+      "name": "D_P34",
+      "type": "decimal"
+    },
+    {
+      "name": "D_R34",
+      "type": "decimal"
+    },
+    {
+      "name": "D_P45",
+      "type": "decimal"
+    },
+    {
+      "name": "D_R45",
+      "type": "decimal"
+    },
+    {
+      "name": "D_P56",
+      "type": "decimal"
+    },
+    {
+      "name": "D_R56",
+      "type": "decimal"
+    },
+    {
+      "name": "D_P67",
+      "type": "decimal"
+    },
+    {
+      "name": "D_R67",
+      "type": "decimal"
+    },
+    {
+      "name": "D_P78",
+      "type": "decimal"
+    },
+    {
+      "name": "D_R78",
+      "type": "decimal"
+    },
+    {
+      "name": "P_C_D",
+      "type": "decimal"
+    },
+    {
+      "name": "WD",
+      "type": "decimal"
+    },
+    {
+      "name": "ND_P12",
+      "type": "decimal"
+    },
+    {
+      "name": "ND_R12",
+      "type": "decimal"
+    },
+    {
+      "name": "ND_P23",
+      "type": "decimal"
+    },
+    {
+      "name": "ND_R23",
+      "type": "decimal"
+    },
+    {
+      "name": "ND_P34",
+      "type": "decimal"
+    },
+    {
+      "name": "ND_R34",
+      "type": "decimal"
+    },
+    {
+      "name": "ND_P45",
+      "type": "decimal"
+    },
+    {
+      "name": "ND_R45",
+      "type": "decimal"
+    },
+    {
+      "name": "ND_P56",
+      "type": "decimal"
+    },
+    {
+      "name": "ND_R56",
+      "type": "decimal"
+    },
+    {
+      "name": "ND_P67",
+      "type": "decimal"
+    },
+    {
+      "name": "ND_R67",
+      "type": "decimal"
+    },
+    {
+      "name": "ND_P78",
+      "type": "decimal"
+    },
+    {
+      "name": "ND_R78",
+      "type": "decimal"
+    },
+    {
+      "name": "P_C_ND",
+      "type": "decimal"
+    },
+    {
+      "name": "WND",
+      "type": "decimal"
+    },
+    {
+      "name": "M_P12",
+      "type": "decimal"
+    },
+    {
+      "name": "M_R12",
+      "type": "decimal"
+    },
+    {
+      "name": "M_P23",
+      "type": "decimal"
+    },
+    {
+      "name": "M_R23",
+      "type": "decimal"
+    },
+    {
+      "name": "M_P34",
+      "type": "decimal"
+    },
+    {
+      "name": "M_R34",
+      "type": "decimal"
+    },
+    {
+      "name": "M_P45",
+      "type": "decimal"
+    },
+    {
+      "name": "M_R45",
+      "type": "decimal"
+    },
+    {
+      "name": "M_P56",
+      "type": "decimal"
+    },
+    {
+      "name": "M_R56",
+      "type": "decimal"
+    },
+    {
+      "name": "M_P67",
+      "type": "decimal"
+    },
+    {
+      "name": "M_R67",
+      "type": "decimal"
+    },
+    {
+      "name": "M_P78",
+      "type": "decimal"
+    },
+    {
+      "name": "M_R78",
+      "type": "decimal"
+    },
+    {
+      "name": "P_C_M",
+      "type": "decimal"
+    },
+    {
+      "name": "WM",
+      "type": "decimal"
+    },
+    {
+      "name": "MD_P12",
+      "type": "decimal"
+    },
+    {
+      "name": "MD_R12",
+      "type": "decimal"
+    },
+    {
+      "name": "MD_P23",
+      "type": "decimal"
+    },
+    {
+      "name": "MD_R23",
+      "type": "decimal"
+    },
+    {
+      "name": "MD_P34",
+      "type": "decimal"
+    },
+    {
+      "name": "MD_R34",
+      "type": "decimal"
+    },
+    {
+      "name": "MD_P45",
+      "type": "decimal"
+    },
+    {
+      "name": "MD_R45",
+      "type": "decimal"
+    },
+    {
+      "name": "MD_P56",
+      "type": "decimal"
+    },
+    {
+      "name": "MD_R56",
+      "type": "decimal"
+    },
+    {
+      "name": "MD_P67",
+      "type": "decimal"
+    },
+    {
+      "name": "MD_R67",
+      "type": "decimal"
+    },
+    {
+      "name": "MD_P78",
+      "type": "decimal"
+    },
+    {
+      "name": "MD_R78",
+      "type": "decimal"
+    },
+    {
+      "name": "P_C_MD",
+      "type": "decimal"
+    },
+    {
+      "name": "WMD",
+      "type": "decimal"
+    },
+    {
+      "name": "MND_P12",
+      "type": "decimal"
+    },
+    {
+      "name": "MND_R12",
+      "type": "decimal"
+    },
+    {
+      "name": "MND_P23",
+      "type": "decimal"
+    },
+    {
+      "name": "MND_R23",
+      "type": "decimal"
+    },
+    {
+      "name": "MND_P34",
+      "type": "decimal"
+    },
+    {
+      "name": "MND_R34",
+      "type": "decimal"
+    },
+    {
+      "name": "MND_P45",
+      "type": "decimal"
+    },
+    {
+      "name": "MND_R45",
+      "type": "decimal"
+    },
+    {
+      "name": "MND_P56",
+      "type": "decimal"
+    },
+    {
+      "name": "MND_R56",
+      "type": "decimal"
+    },
+    {
+      "name": "MND_P67",
+      "type": "decimal"
+    },
+    {
+      "name": "MND_R67",
+      "type": "decimal"
+    },
+    {
+      "name": "MND_P78",
+      "type": "decimal"
+    },
+    {
+      "name": "MND_R78",
+      "type": "decimal"
+    },
+    {
+      "name": "P_C_MND",
+      "type": "decimal"
+    },
+    {
+      "name": "WMND",
+      "type": "decimal"
+    },
+    {
+      "name": "F_P12",
+      "type": "decimal"
+    },
+    {
+      "name": "F_R12",
+      "type": "decimal"
+    },
+    {
+      "name": "F_P23",
+      "type": "decimal"
+    },
+    {
+      "name": "F_R23",
+      "type": "decimal"
+    },
+    {
+      "name": "F_P34",
+      "type": "decimal"
+    },
+    {
+      "name": "F_R34",
+      "type": "decimal"
+    },
+    {
+      "name": "F_P45",
+      "type": "decimal"
+    },
+    {
+      "name": "F_R45",
+      "type": "decimal"
+    },
+    {
+      "name": "F_P56",
+      "type": "decimal"
+    },
+    {
+      "name": "F_R56",
+      "type": "decimal"
+    },
+    {
+      "name": "F_P67",
+      "type": "decimal"
+    },
+    {
+      "name": "F_R67",
+      "type": "decimal"
+    },
+    {
+      "name": "F_P78",
+      "type": "decimal"
+    },
+    {
+      "name": "F_R78",
+      "type": "decimal"
+    },
+    {
+      "name": "P_C_F",
+      "type": "decimal"
+    },
+    {
+      "name": "WF",
+      "type": "decimal"
+    },
+    {
+      "name": "FD_P12",
+      "type": "decimal"
+    },
+    {
+      "name": "FD_R12",
+      "type": "decimal"
+    },
+    {
+      "name": "FD_P23",
+      "type": "decimal"
+    },
+    {
+      "name": "FD_R23",
+      "type": "decimal"
+    },
+    {
+      "name": "FD_P34",
+      "type": "decimal"
+    },
+    {
+      "name": "FD_R34",
+      "type": "decimal"
+    },
+    {
+      "name": "FD_P45",
+      "type": "decimal"
+    },
+    {
+      "name": "FD_R45",
+      "type": "decimal"
+    },
+    {
+      "name": "FD_P56",
+      "type": "decimal"
+    },
+    {
+      "name": "FD_R56",
+      "type": "decimal"
+    },
+    {
+      "name": "FD_P67",
+      "type": "decimal"
+    },
+    {
+      "name": "FD_R67",
+      "type": "decimal"
+    },
+    {
+      "name": "FD_P78",
+      "type": "decimal"
+    },
+    {
+      "name": "FD_R78",
+      "type": "decimal"
+    },
+    {
+      "name": "P_C_FD",
+      "type": "decimal"
+    },
+    {
+      "name": "WFD",
+      "type": "decimal"
+    },
+    {
+      "name": "FND_P12",
+      "type": "decimal"
+    },
+    {
+      "name": "FND_R12",
+      "type": "decimal"
+    },
+    {
+      "name": "FND_P23",
+      "type": "decimal"
+    },
+    {
+      "name": "FND_R23",
+      "type": "decimal"
+    },
+    {
+      "name": "FND_P34",
+      "type": "decimal"
+    },
+    {
+      "name": "FND_R34",
+      "type": "decimal"
+    },
+    {
+      "name": "FND_P45",
+      "type": "decimal"
+    },
+    {
+      "name": "FND_R45",
+      "type": "decimal"
+    },
+    {
+      "name": "FND_P56",
+      "type": "decimal"
+    },
+    {
+      "name": "FND_R56",
+      "type": "decimal"
+    },
+    {
+      "name": "FND_P67",
+      "type": "decimal"
+    },
+    {
+      "name": "FND_R67",
+      "type": "decimal"
+    },
+    {
+      "name": "FND_P78",
+      "type": "decimal"
+    },
+    {
+      "name": "FND_R78",
+      "type": "decimal"
+    },
+    {
+      "name": "P_C_FND",
+      "type": "decimal"
+    },
+    {
+      "name": "WFND",
+      "type": "decimal"
+    },
+    {
+      "name": "EI_Access_D",
+      "type": "decimal"
+    },
+    {
+      "name": "EI_Learning_D",
+      "type": "decimal"
+    },
+    {
+      "name": "EI_Participation_D",
+      "type": "decimal"
+    },
+    {
+      "name": "EI_Access",
+      "type": "decimal"
+    },
+    {
+      "name": "EI_Learning",
+      "type": "decimal"
+    },
+    {
+      "name": "EI_Participation",
+      "type": "decimal"
+    },
+    {
+      "name": "EI_Net",
+      "type": "decimal"
+    },
+    {
+      "name": "EI_Access_Locked",
+      "type": "decimal"
+    },
+    {
+      "name": "EI_Learning_Locked",
+      "type": "decimal"
+    },
+    {
+      "name": "EI_Participation_Locked",
+      "type": "decimal"
+    },
+    {
+      "name": "EI_Net_Locked",
+      "type": "decimal"
+    },
+    {
+      "name": "IsLocked",
+      "type": "bit"
+    },
+    {
+      "name": "LockedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "LockedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "LockedOnNp",
+      "type": "nvarchar"
+    }
+  ],
+  "dbo.ExamTerms": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "OrganizationId",
+      "type": "bigint"
+    },
+    {
+      "name": "TermNumber",
+      "type": "int"
+    },
+    {
+      "name": "Weightage",
+      "type": "float"
+    },
+    {
+      "name": "MarksConversionRate",
+      "type": "float"
+    },
+    {
+      "name": "TermName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "IsActive",
+      "type": "bit"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    }
+  ],
+  "dbo.ExtendedGeneralInformationInventory": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "OrganizationId",
+      "type": "bigint"
+    },
+    {
+      "name": "Tole",
+      "type": "nvarchar"
+    },
+    {
+      "name": "SettlementName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "IsLocationWithinCityOrMarket",
+      "type": "bit"
+    },
+    {
+      "name": "NameOfNearestCityOrMarket",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DistanceFromNearestCityOrMarket",
+      "type": "float"
+    },
+    {
+      "name": "NearestMajorLandMark",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DistanceFromDistrictHeadQuarter",
+      "type": "float"
+    },
+    {
+      "name": "Latitude",
+      "type": "float"
+    },
+    {
+      "name": "Longitude",
+      "type": "float"
+    },
+    {
+      "name": "Elevation",
+      "type": "float"
+    },
+    {
+      "name": "HasLandOwnershipCertificate",
+      "type": "bit"
+    },
+    {
+      "name": "LandOwnershipType",
+      "type": "int"
+    },
+    {
+      "name": "LandAreaInSqm",
+      "type": "float"
+    },
+    {
+      "name": "SiteOrientationWithRespectToMainEntrance",
+      "type": "int"
+    },
+    {
+      "name": "HasVehicleAccessibility",
+      "type": "bit"
+    },
+    {
+      "name": "AccessRoadType",
+      "type": "int"
+    },
+    {
+      "name": "AccessRoadWidth",
+      "type": "float"
+    },
+    {
+      "name": "WalkingDistanceFromNearestRoad",
+      "type": "float"
+    },
+    {
+      "name": "WalkingHoursFromNearestRoad",
+      "type": "float"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    },
+    {
+      "name": "ElectricalSupplySource",
+      "type": "int"
+    },
+    {
+      "name": "HasElectricitySupplyLine",
+      "type": "bit"
+    },
+    {
+      "name": "HasInternetFacility",
+      "type": "bit"
+    },
+    {
+      "name": "HasRegularWaterSupplySource",
+      "type": "bit"
+    },
+    {
+      "name": "HasTelephone",
+      "type": "bit"
+    },
+    {
+      "name": "InternetFacilitySource",
+      "type": "int"
+    },
+    {
+      "name": "RegularWaterSupplySource",
+      "type": "int"
+    },
+    {
+      "name": "SewerageSystem",
+      "type": "int"
+    },
+    {
+      "name": "GeologyOfSite",
+      "type": "nvarchar"
+    },
+    {
+      "name": "HasSoilInvestigationDone",
+      "type": "bit"
+    },
+    {
+      "name": "InvestigationUnit",
+      "type": "int"
+    },
+    {
+      "name": "InvestigationValue",
+      "type": "nvarchar"
+    },
+    {
+      "name": "IsMarginalLand",
+      "type": "bit"
+    },
+    {
+      "name": "LandSlopePercent",
+      "type": "float"
+    },
+    {
+      "name": "LandType",
+      "type": "int"
+    },
+    {
+      "name": "HasAllWeatherRoad",
+      "type": "bit"
+    }
+  ],
+  "dbo.FAAndIEPQuestionnaires": [
+    {
+      "name": "Id",
+      "type": "int"
+    },
+    {
+      "name": "SectionNumber",
+      "type": "int"
+    },
+    {
+      "name": "SectionName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "SectionNameNp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "SubSectionNumber",
+      "type": "int"
+    },
+    {
+      "name": "SubSectionName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "SubSectionNameNp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "SubHeaderNumber",
+      "type": "int"
+    },
+    {
+      "name": "SubHeaderName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "SubHeaderNameNp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "QuestionNumber",
+      "type": "int"
+    },
+    {
+      "name": "QuestionName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "QuestionNameNp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Type",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ParentId",
+      "type": "int"
+    },
+    {
+      "name": "Level",
+      "type": "int"
+    },
+    {
+      "name": "LinkTo",
+      "type": "nvarchar"
+    }
+  ],
+  "dbo.FacultyWiseStudentCounts": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "EducationalProgramWithStudentAndStaffId",
+      "type": "bigint"
+    },
+    {
+      "name": "FacultyId",
+      "type": "int"
+    },
+    {
+      "name": "StudentCount",
+      "type": "int"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    }
+  ],
+  "dbo.FunctionalAssessmentAnswers": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "FunctionalAssessmentId",
+      "type": "bigint"
+    },
+    {
+      "name": "QuestionId",
+      "type": "int"
+    },
+    {
+      "name": "Answer",
+      "type": "int"
+    }
+  ],
+  "dbo.FunctionalAssessments": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "OrganizationId",
+      "type": "bigint"
+    },
+    {
+      "name": "StudentInformationId",
+      "type": "bigint"
+    },
+    {
+      "name": "StudentClassHistoryId",
+      "type": "bigint"
+    },
+    {
+      "name": "Age",
+      "type": "int"
+    },
+    {
+      "name": "DisabilityIdentityCardBasedOnNature",
+      "type": "nvarchar"
+    },
+    {
+      "name": "SeverityClassification",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DifficultyIdentifiedWhileScreening",
+      "type": "nvarchar"
+    },
+    {
+      "name": "SeverityGrade",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ParentName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ParentEducation",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ParentOccupation",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ParentOrCaretakerPhoneNumber",
+      "type": "nvarchar"
+    },
+    {
+      "name": "HasOtherDisabledFamilyMember",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DisableFamilyMemberCount",
+      "type": "int"
+    },
+    {
+      "name": "EvaluatorName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "EvaluatorCount",
+      "type": "int"
+    },
+    {
+      "name": "EvaluatorOrganization",
+      "type": "nvarchar"
+    },
+    {
+      "name": "EvaluatorPhoneNumber",
+      "type": "nvarchar"
+    },
+    {
+      "name": "EvaluatorPosition",
+      "type": "nvarchar"
+    },
+    {
+      "name": "AssessmentDate",
+      "type": "datetime2"
+    },
+    {
+      "name": "AssessmentDateNepali",
+      "type": "nvarchar"
+    }
+  ],
+  "dbo.IepAnswers": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "IepId",
+      "type": "bigint"
+    },
+    {
+      "name": "QuestionId",
+      "type": "int"
+    },
+    {
+      "name": "Answer",
+      "type": "int"
+    },
+    {
+      "name": "YearlyAnswer",
+      "type": "int"
+    }
+  ],
+  "dbo.Ieps": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "OrganizationId",
+      "type": "bigint"
+    },
+    {
+      "name": "StudentInformationId",
+      "type": "bigint"
+    },
+    {
+      "name": "StudentClassHistoryId",
+      "type": "bigint"
+    },
+    {
+      "name": "DisabilityGrade",
+      "type": "nvarchar"
+    },
+    {
+      "name": "SpecificDifficulty",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ParentName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ParentRelation",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ParentOccupation",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ParentPhoneNumber",
+      "type": "nvarchar"
+    }
+  ],
+  "dbo.InfrastructureFacilityAvailabilities": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "OrganizationId",
+      "type": "bigint"
+    },
+    {
+      "name": "Particulars",
+      "type": "int"
+    },
+    {
+      "name": "ExistingCount",
+      "type": "int"
+    },
+    {
+      "name": "AdditionalNeed",
+      "type": "int"
+    },
+    {
+      "name": "Remarks",
+      "type": "nvarchar"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    }
+  ],
+  "dbo.InfrastructureInventoryOtherInformations": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "OrganizationId",
+      "type": "bigint"
+    },
+    {
+      "name": "OtherSchoolsNearby",
+      "type": "nvarchar"
+    },
+    {
+      "name": "BusinessPercent",
+      "type": "float"
+    },
+    {
+      "name": "FarmingPercent",
+      "type": "float"
+    },
+    {
+      "name": "ServicePercent",
+      "type": "float"
+    },
+    {
+      "name": "ForeignEmploymentPercent",
+      "type": "float"
+    },
+    {
+      "name": "OtherProfession",
+      "type": "nvarchar"
+    },
+    {
+      "name": "OtherProfessionPercent",
+      "type": "float"
+    },
+    {
+      "name": "FutureGrowthPotentialOfCatchmentArea",
+      "type": "nvarchar"
+    },
+    {
+      "name": "AverageHHSocioEconomicStatusInCatchmentArea",
+      "type": "nvarchar"
+    },
+    {
+      "name": "OldClimaticRecords",
+      "type": "nvarchar"
+    },
+    {
+      "name": "OtherRelevantInformations",
+      "type": "nvarchar"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    }
+  ],
+  "dbo.InterventionAsPerSOPGQuestionnaries": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "QuestionStatement",
+      "type": "nvarchar"
+    }
+  ],
+  "dbo.LocalLevelSchoolDeatilEntryForm": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "OrganizationId",
+      "type": "bigint"
+    },
+    {
+      "name": "Year",
+      "type": "int"
+    },
+    {
+      "name": "IsCommunityBased",
+      "type": "bit"
+    },
+    {
+      "name": "IsReligious",
+      "type": "bit"
+    },
+    {
+      "name": "RunningSchoolCategory",
+      "type": "int"
+    },
+    {
+      "name": "StudentCount1To5",
+      "type": "int"
+    },
+    {
+      "name": "StudentCount6To8",
+      "type": "int"
+    },
+    {
+      "name": "StudentCount9To10",
+      "type": "int"
+    },
+    {
+      "name": "StudentCount11To12",
+      "type": "int"
+    },
+    {
+      "name": "HasNoDarbandiOrQuota6To8",
+      "type": "bit"
+    },
+    {
+      "name": "NoDarbandiOrQuota6To8Date",
+      "type": "datetime2"
+    },
+    {
+      "name": "NoDarbandiOrQuota6To8DateNp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "HasNoDarbandiOrQuota9To10",
+      "type": "bit"
+    },
+    {
+      "name": "NoDarbandiOrQuota9To10Date",
+      "type": "datetime2"
+    },
+    {
+      "name": "NoDarbandiOrQuota9To10DateNp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "HasNoDarbandiOrQuota11To12",
+      "type": "bit"
+    },
+    {
+      "name": "Only1DarbandiOrQuota6To8",
+      "type": "bit"
+    },
+    {
+      "name": "Only1DarbandiOrQuota9To10",
+      "type": "bit"
+    },
+    {
+      "name": "Only1DarbandiOrQuota11To12",
+      "type": "bit"
+    },
+    {
+      "name": "Only2DarbandiOrQuota6To8",
+      "type": "bit"
+    },
+    {
+      "name": "Only2DarbandiOrQuota9To10",
+      "type": "bit"
+    },
+    {
+      "name": "Only2DarbandiOrQuota11To12",
+      "type": "bit"
+    },
+    {
+      "name": "HasEMSTeachers6To8",
+      "type": "bit"
+    },
+    {
+      "name": "HasEMSTeachers9To10",
+      "type": "bit"
+    },
+    {
+      "name": "NoScience11To12",
+      "type": "bit"
+    },
+    {
+      "name": "HasTechnicalLab",
+      "type": "bit"
+    },
+    {
+      "name": "HasScienceLab",
+      "type": "bit"
+    },
+    {
+      "name": "HasLibrary",
+      "type": "bit"
+    },
+    {
+      "name": "HasInternet",
+      "type": "bit"
+    },
+    {
+      "name": "HasDoneSchoolAudit",
+      "type": "bit"
+    },
+    {
+      "name": "HasImplementedReAL",
+      "type": "bit"
+    },
+    {
+      "name": "NumberOfClassRoomsConstructedLastYear",
+      "type": "int"
+    },
+    {
+      "name": "StudentCountGettingHandicappedScholarship",
+      "type": "int"
+    },
+    {
+      "name": "HasImplementedTeacherHelpForProfessionalGrowth",
+      "type": "bit"
+    },
+    {
+      "name": "HasTeacherMentoringImplemented",
+      "type": "bit"
+    },
+    {
+      "name": "HasProvidedAnyGrantFor1To3StudentsDevelopment",
+      "type": "bit"
+    },
+    {
+      "name": "HasParticipatedInClass1To3CommonSyllabus",
+      "type": "bit"
+    },
+    {
+      "name": "TeacherCountParticipatedInClass1To3CommonSyllabus",
+      "type": "int"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    },
+    {
+      "name": "HasElectricityFacility",
+      "type": "bit"
+    },
+    {
+      "name": "DarbandiOrQuotaForLevel11To12",
+      "type": "int"
+    },
+    {
+      "name": "DarbandiOrQuotaForLevel1To5",
+      "type": "int"
+    },
+    {
+      "name": "DarbandiOrQuotaForLevel6To8",
+      "type": "int"
+    },
+    {
+      "name": "DarbandiOrQuotaForLevel9To10",
+      "type": "int"
+    },
+    {
+      "name": "FeederScholarshipCount",
+      "type": "int"
+    },
+    {
+      "name": "HimalayanStayScholarshipCount",
+      "type": "int"
+    },
+    {
+      "name": "IsRunningFeederScholarship",
+      "type": "bit"
+    },
+    {
+      "name": "IsRunningHimalayanStayScholarship",
+      "type": "bit"
+    },
+    {
+      "name": "NoDarbandiOrQuota11To12Date",
+      "type": "datetime2"
+    },
+    {
+      "name": "NoDarbandiOrQuota11To12DateNp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "NoDarbandiOrQuota1To5Date",
+      "type": "datetime2"
+    },
+    {
+      "name": "NoDarbandiOrQuota1To5DateNp",
+      "type": "nvarchar"
+    }
+  ],
+  "dbo.LocalMaterialsNearbySite": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "ExtendedGeneralInformationInventoryId",
+      "type": "bigint"
+    },
+    {
+      "name": "MaterialId",
+      "type": "int"
+    },
+    {
+      "name": "Distance",
+      "type": "float"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    }
+  ],
+  "dbo.LookUpDetails": [
+    {
+      "name": "Id",
+      "type": "int"
+    },
+    {
+      "name": "Type",
+      "type": "int"
+    },
+    {
+      "name": "Name",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Description",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Value",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DisplaySequence",
+      "type": "int"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    },
+    {
+      "name": "IsStatic",
+      "type": "bit"
+    }
+  ],
+  "dbo.Modules": [
+    {
+      "name": "Id",
+      "type": "int"
+    },
+    {
+      "name": "ModuleName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ModuleCode",
+      "type": "nvarchar"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsActive",
+      "type": "bit"
+    }
+  ],
+  "dbo.Municipality": [
+    {
+      "name": "Id",
+      "type": "int"
+    },
+    {
+      "name": "MunicipalityName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Type",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DistrictId",
+      "type": "int"
+    },
+    {
+      "name": "Code",
+      "type": "nvarchar"
+    },
+    {
+      "name": "IsActive",
+      "type": "bit"
+    },
+    {
+      "name": "MunicipalityNameNp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "BudgetCode",
+      "type": "nvarchar"
+    }
+  ],
+  "dbo.NoticePublishes": [
+    {
+      "name": "Id",
+      "type": "int"
+    },
+    {
+      "name": "Title",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Description",
+      "type": "nvarchar"
+    },
+    {
+      "name": "PublishDate",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    },
+    {
+      "name": "MunicipalityId",
+      "type": "int"
+    },
+    {
+      "name": "PublishDateNp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    }
+  ],
+  "dbo.OrganizationClassMapping": [
+    {
+      "name": "Id",
+      "type": "int"
+    },
+    {
+      "name": "OrganizationId",
+      "type": "bigint"
+    },
+    {
+      "name": "ClassId",
+      "type": "nvarchar"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    }
+  ],
+  "dbo.OrganizationDarbandiDetails": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "OrganizationId",
+      "type": "bigint"
+    },
+    {
+      "name": "ClassLevel",
+      "type": "int"
+    },
+    {
+      "name": "ApprovedPositions",
+      "type": "int"
+    },
+    {
+      "name": "ReliefQuota",
+      "type": "int"
+    },
+    {
+      "name": "GovEduGrantQuota",
+      "type": "int"
+    },
+    {
+      "name": "ProvinceEduGrantQuota",
+      "type": "int"
+    },
+    {
+      "name": "LocalLevelEduGrantQuota",
+      "type": "int"
+    },
+    {
+      "name": "FromOwnSchool",
+      "type": "int"
+    },
+    {
+      "name": "VolunteerTeachers",
+      "type": "int"
+    },
+    {
+      "name": "TeachersFromOtherOrgHelp",
+      "type": "int"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    },
+    {
+      "name": "PoolPositions",
+      "type": "int"
+    }
+  ],
+  "dbo.OrganizationECEDInformations": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "OrganizationId",
+      "type": "bigint"
+    },
+    {
+      "name": "AccessToCleanToilet",
+      "type": "bit"
+    },
+    {
+      "name": "AccessToCleanDrinkingWater",
+      "type": "bit"
+    },
+    {
+      "name": "ChildFriendlySeatingArrangement",
+      "type": "bit"
+    },
+    {
+      "name": "ArrangementSettings",
+      "type": "int"
+    },
+    {
+      "name": "ChildDevelopmentHelperDetails",
+      "type": "nvarchar"
+    },
+    {
+      "name": "LanguageArea",
+      "type": "int"
+    },
+    {
+      "name": "MathArea",
+      "type": "int"
+    },
+    {
+      "name": "SelfRelianceArea",
+      "type": "int"
+    },
+    {
+      "name": "CreativityArea",
+      "type": "int"
+    },
+    {
+      "name": "ConstructionArea",
+      "type": "int"
+    },
+    {
+      "name": "ScienceArea",
+      "type": "int"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    },
+    {
+      "name": "ApprovedDates",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ApprovedDatesNp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "CommunityBasedEcd",
+      "type": "int"
+    },
+    {
+      "name": "SchoolBasedEcd",
+      "type": "int"
+    },
+    {
+      "name": "TotalNumberOfEcd",
+      "type": "int"
+    },
+    {
+      "name": "Year",
+      "type": "int"
+    }
+  ],
+  "dbo.OrganizationManagementAndOthers": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "OrganizationId",
+      "type": "bigint"
+    },
+    {
+      "name": "HasSchoolImprovementPlan",
+      "type": "bit"
+    },
+    {
+      "name": "ApprovedDate",
+      "type": "datetime2"
+    },
+    {
+      "name": "ApprovedDateNp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "HasSocialAudit",
+      "type": "bit"
+    },
+    {
+      "name": "CompletionDate",
+      "type": "datetime2"
+    },
+    {
+      "name": "CompletionDateNp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "HasFinancialAudit",
+      "type": "bit"
+    },
+    {
+      "name": "AuditorReportSubmissionDate",
+      "type": "datetime2"
+    },
+    {
+      "name": "AuditorReportSubmissionDateNp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "MonitoringStatusByLocalGovt",
+      "type": "int"
+    },
+    {
+      "name": "MonitoringStatusByProGovt",
+      "type": "int"
+    },
+    {
+      "name": "MonitoringStatusByEdcu",
+      "type": "int"
+    },
+    {
+      "name": "MonitoringStatusByCehrd",
+      "type": "int"
+    },
+    {
+      "name": "MonitoringStatusByExpertGroup",
+      "type": "int"
+    },
+    {
+      "name": "HasLibrary",
+      "type": "bit"
+    },
+    {
+      "name": "NumberOfBooks",
+      "type": "int"
+    },
+    {
+      "name": "HasElibrary",
+      "type": "bit"
+    },
+    {
+      "name": "HasChildClub",
+      "type": "bit"
+    },
+    {
+      "name": "HasGirlsNetwork",
+      "type": "bit"
+    },
+    {
+      "name": "Electricity",
+      "type": "bit"
+    },
+    {
+      "name": "Internet",
+      "type": "bit"
+    },
+    {
+      "name": "InternetSource",
+      "type": "int"
+    },
+    {
+      "name": "IctLab",
+      "type": "bit"
+    },
+    {
+      "name": "TotalComputers",
+      "type": "int"
+    },
+    {
+      "name": "ComputerForTeachingPurpose",
+      "type": "int"
+    },
+    {
+      "name": "ComputerForAdministrativePurpose",
+      "type": "int"
+    },
+    {
+      "name": "HasMedicalFacility",
+      "type": "bit"
+    },
+    {
+      "name": "PrimaryHealthpostDistance",
+      "type": "int"
+    },
+    {
+      "name": "SchoolNurseProgram",
+      "type": "bit"
+    },
+    {
+      "name": "FundingSource",
+      "type": "int"
+    },
+    {
+      "name": "MenstrualHygineFacility",
+      "type": "bit"
+    },
+    {
+      "name": "AvailabilityOfSanitaryPadForEmergency",
+      "type": "bit"
+    },
+    {
+      "name": "DisposalOfSanitaryPad",
+      "type": "int"
+    },
+    {
+      "name": "StudentsTrainedOnMakingReusablePads",
+      "type": "bit"
+    },
+    {
+      "name": "WaterAvailableOnSchoolPremise",
+      "type": "bit"
+    },
+    {
+      "name": "IsConnectionToWaterPermanent",
+      "type": "bit"
+    },
+    {
+      "name": "SourceOfWater",
+      "type": "int"
+    },
+    {
+      "name": "WaterReserveTanks",
+      "type": "bit"
+    },
+    {
+      "name": "HandWashingArea",
+      "type": "bit"
+    },
+    {
+      "name": "TestOfDrinkingWater",
+      "type": "bit"
+    },
+    {
+      "name": "PurificationOfWater",
+      "type": "bit"
+    },
+    {
+      "name": "MethodOfPurification",
+      "type": "int"
+    },
+    {
+      "name": "SchoolCompoundStatus",
+      "type": "bit"
+    },
+    {
+      "name": "PlaygroundStatus",
+      "type": "bit"
+    },
+    {
+      "name": "EnoughSpaceForPlayGround",
+      "type": "bit"
+    },
+    {
+      "name": "HasToilet",
+      "type": "bit"
+    },
+    {
+      "name": "NumberOfToilets",
+      "type": "int"
+    },
+    {
+      "name": "ToiletForBoys",
+      "type": "int"
+    },
+    {
+      "name": "ToiletForGirls",
+      "type": "int"
+    },
+    {
+      "name": "UrinalForGirls",
+      "type": "int"
+    },
+    {
+      "name": "UrinalForBoys",
+      "type": "int"
+    },
+    {
+      "name": "SufficientWaterForToilet",
+      "type": "bit"
+    },
+    {
+      "name": "ToiletWithSufficientWater",
+      "type": "int"
+    },
+    {
+      "name": "ToiletWithInsufficientWater",
+      "type": "int"
+    },
+    {
+      "name": "SwerageSystem",
+      "type": "int"
+    },
+    {
+      "name": "NumberOfBuildings",
+      "type": "int"
+    },
+    {
+      "name": "Rcc",
+      "type": "int"
+    },
+    {
+      "name": "Truss",
+      "type": "int"
+    },
+    {
+      "name": "Temporary",
+      "type": "int"
+    },
+    {
+      "name": "EasyAccessForDisabledStudents",
+      "type": "bit"
+    },
+    {
+      "name": "GovFundFirstTrimester",
+      "type": "int"
+    },
+    {
+      "name": "GovFundSecondTrimester",
+      "type": "int"
+    },
+    {
+      "name": "GovFundThirdTrimester",
+      "type": "int"
+    },
+    {
+      "name": "GovFundFourthTrimester",
+      "type": "int"
+    },
+    {
+      "name": "HasMidDayMeal",
+      "type": "bit"
+    },
+    {
+      "name": "SourceOfMidMeal",
+      "type": "int"
+    },
+    {
+      "name": "NumberOfDaysMidMealProvied",
+      "type": "int"
+    },
+    {
+      "name": "NumberOfStudentsThatHadMidMeal",
+      "type": "int"
+    },
+    {
+      "name": "MenuUsedInMidMeal",
+      "type": "int"
+    },
+    {
+      "name": "MidMealManagement",
+      "type": "int"
+    },
+    {
+      "name": "TotalOpeningDaysP",
+      "type": "int"
+    },
+    {
+      "name": "TotalOpeningDaysA",
+      "type": "int"
+    },
+    {
+      "name": "TeachingDaysP",
+      "type": "int"
+    },
+    {
+      "name": "TeachingDaysA",
+      "type": "int"
+    },
+    {
+      "name": "ExamDaysP",
+      "type": "int"
+    },
+    {
+      "name": "ExamDaysA",
+      "type": "int"
+    },
+    {
+      "name": "ExtraCurricularDaysP",
+      "type": "int"
+    },
+    {
+      "name": "ExtraCurricularDaysA",
+      "type": "int"
+    },
+    {
+      "name": "PublicHolidaysP",
+      "type": "int"
+    },
+    {
+      "name": "PublicHolidaysA",
+      "type": "int"
+    },
+    {
+      "name": "FestivalDaysP",
+      "type": "int"
+    },
+    {
+      "name": "FestivalDaysA",
+      "type": "int"
+    },
+    {
+      "name": "OtherActivitiesDaysP",
+      "type": "int"
+    },
+    {
+      "name": "OtherActivitiesDaysA",
+      "type": "int"
+    },
+    {
+      "name": "LandAreaInSqm",
+      "type": "float"
+    },
+    {
+      "name": "Bigha",
+      "type": "float"
+    },
+    {
+      "name": "Ropani",
+      "type": "float"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    },
+    {
+      "name": "ScienceLab",
+      "type": "bit"
+    },
+    {
+      "name": "DisabilityFriendlyToilet",
+      "type": "bit"
+    },
+    {
+      "name": "noOfDisabilityToilet",
+      "type": "int"
+    },
+    {
+      "name": "Year",
+      "type": "int"
+    }
+  ],
+  "dbo.OrganizationMaterialDetails": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "OrganizationId",
+      "type": "bigint"
+    },
+    {
+      "name": "MaterialId",
+      "type": "int"
+    },
+    {
+      "name": "Ecd",
+      "type": "int"
+    },
+    {
+      "name": "Class1To5",
+      "type": "int"
+    },
+    {
+      "name": "Class6To8",
+      "type": "int"
+    },
+    {
+      "name": "Class9To10",
+      "type": "int"
+    },
+    {
+      "name": "Class11To12",
+      "type": "int"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    },
+    {
+      "name": "Year",
+      "type": "int"
+    }
+  ],
+  "dbo.OrganizationMergeAndUpgradeLogs": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "FromClass",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ToClass",
+      "type": "nvarchar"
+    },
+    {
+      "name": "FromOrganization",
+      "type": "bigint"
+    },
+    {
+      "name": "ToOrganization",
+      "type": "bigint"
+    },
+    {
+      "name": "Year",
+      "type": "int"
+    },
+    {
+      "name": "ActionDate",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Type",
+      "type": "nvarchar"
+    }
+  ],
+  "dbo.OrganizationNewConstructionAndRehabilitationDetails": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "OrganizationId",
+      "type": "bigint"
+    },
+    {
+      "name": "ConstructionTypeId",
+      "type": "int"
+    },
+    {
+      "name": "LocalGovernment",
+      "type": "int"
+    },
+    {
+      "name": "ProvincialGovernment",
+      "type": "int"
+    },
+    {
+      "name": "OtherAgencies",
+      "type": "int"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    },
+    {
+      "name": "Year",
+      "type": "int"
+    }
+  ],
+  "dbo.OrganizationRoomDetails": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "OrganizationId",
+      "type": "bigint"
+    },
+    {
+      "name": "SubUtilization",
+      "type": "int"
+    },
+    {
+      "name": "TotalRooms",
+      "type": "int"
+    },
+    {
+      "name": "Pakki",
+      "type": "int"
+    },
+    {
+      "name": "Kachhi",
+      "type": "int"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    },
+    {
+      "name": "Year",
+      "type": "int"
+    }
+  ],
+  "dbo.OrganizationTextbookAndTeachingDetails": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "OrganizationId",
+      "type": "bigint"
+    },
+    {
+      "name": "ClassId",
+      "type": "nvarchar"
+    },
+    {
+      "name": "FullNewTextbook",
+      "type": "int"
+    },
+    {
+      "name": "PartialNewTextbook",
+      "type": "int"
+    },
+    {
+      "name": "UsedOldTextbook",
+      "type": "int"
+    },
+    {
+      "name": "EnglishTextbook",
+      "type": "int"
+    },
+    {
+      "name": "ClassTeachingMethod",
+      "type": "int"
+    },
+    {
+      "name": "SubjectTeachingMethod",
+      "type": "int"
+    },
+    {
+      "name": "MultiGradeTeachingMethod",
+      "type": "int"
+    },
+    {
+      "name": "Mgml",
+      "type": "int"
+    },
+    {
+      "name": "MotherTonguePractise",
+      "type": "bit"
+    },
+    {
+      "name": "LocalCurriculum",
+      "type": "bit"
+    },
+    {
+      "name": "BookCorner",
+      "type": "bit"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    },
+    {
+      "name": "TeachingMethod",
+      "type": "int"
+    },
+    {
+      "name": "Year",
+      "type": "int"
+    }
+  ],
+  "dbo.OrganizationYearWises": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "Year",
+      "type": "int"
+    },
+    {
+      "name": "OrganizationId",
+      "type": "bigint"
+    },
+    {
+      "name": "OrganizationName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "OrganizationCode",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Address",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ContactNumber",
+      "type": "nvarchar"
+    },
+    {
+      "name": "OtherContactNumber",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Email",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ProvinceId",
+      "type": "int"
+    },
+    {
+      "name": "DistrictId",
+      "type": "int"
+    },
+    {
+      "name": "MunicipalityId",
+      "type": "int"
+    },
+    {
+      "name": "Ward",
+      "type": "int"
+    },
+    {
+      "name": "IsVerified",
+      "type": "bit"
+    },
+    {
+      "name": "ClassRegisteredUpto",
+      "type": "nvarchar"
+    },
+    {
+      "name": "AccountNumber",
+      "type": "nvarchar"
+    },
+    {
+      "name": "SeeCode",
+      "type": "nvarchar"
+    },
+    {
+      "name": "HSEBCode",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ContactPerson",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ContactPersonNumber",
+      "type": "nvarchar"
+    },
+    {
+      "name": "EcdNumber",
+      "type": "int"
+    },
+    {
+      "name": "SchoolBasedEcdNumber",
+      "type": "int"
+    },
+    {
+      "name": "EcdApprovalDate",
+      "type": "datetime2"
+    },
+    {
+      "name": "EcdApprovalDateNp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "HigherSecondaryApprovalDate",
+      "type": "datetime2"
+    },
+    {
+      "name": "LowerSecondaryApprovalDate",
+      "type": "datetime2"
+    },
+    {
+      "name": "SecondaryApprovalDate",
+      "type": "datetime2"
+    },
+    {
+      "name": "PrimaryApprovalDate",
+      "type": "datetime2"
+    },
+    {
+      "name": "HigherSecondaryApprovalDateNp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "LowerSecondaryApprovalDateNp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "SecondaryApprovalDateNp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "PrimaryApprovalDateNp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Latitude",
+      "type": "float"
+    },
+    {
+      "name": "Longitude",
+      "type": "float"
+    },
+    {
+      "name": "Elevation",
+      "type": "float"
+    },
+    {
+      "name": "VerifiedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "VerifiedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "OrganizationCodeAssignedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "OrganizationCodeAssignedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "Tmis",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Altitude",
+      "type": "nvarchar"
+    },
+    {
+      "name": "MergedWith",
+      "type": "bigint"
+    },
+    {
+      "name": "OrganizationTypeId",
+      "type": "int"
+    },
+    {
+      "name": "Tole",
+      "type": "nvarchar"
+    },
+    {
+      "name": "BankId",
+      "type": "int"
+    },
+    {
+      "name": "ContactPersonEmail",
+      "type": "nvarchar"
+    },
+    {
+      "name": "PrincipalQualification",
+      "type": "int"
+    },
+    {
+      "name": "PrincipalGender",
+      "type": "nvarchar"
+    },
+    {
+      "name": "PrincipalCaste",
+      "type": "int"
+    },
+    {
+      "name": "IsPricipalTeachingStudent",
+      "type": "bit"
+    },
+    {
+      "name": "GrantReceivingType",
+      "type": "int"
+    },
+    {
+      "name": "HasEcdLevel",
+      "type": "bit"
+    },
+    {
+      "name": "HasPrimaryLevel",
+      "type": "bit"
+    },
+    {
+      "name": "HasLowerSecondaryLevel",
+      "type": "bit"
+    },
+    {
+      "name": "HasSecondaryLevel",
+      "type": "bit"
+    },
+    {
+      "name": "HasHigherSecondaryLevel",
+      "type": "bit"
+    },
+    {
+      "name": "HasScienceInHigherSecondaryLevel",
+      "type": "bit"
+    },
+    {
+      "name": "HasTechnicalStream",
+      "type": "bit"
+    },
+    {
+      "name": "HasGunasoProvisioning",
+      "type": "bit"
+    },
+    {
+      "name": "AffiliatedAbroad",
+      "type": "bit"
+    },
+    {
+      "name": "TechnicalStreamDetails",
+      "type": "nvarchar"
+    },
+    {
+      "name": "SelectedAsExcellentFromCehrd",
+      "type": "bit"
+    },
+    {
+      "name": "OrganizationSubTypeId",
+      "type": "int"
+    },
+    {
+      "name": "IsSchoolTypeForHandicapped",
+      "type": "bit"
+    },
+    {
+      "name": "SchoolTypeForHandicapped",
+      "type": "int"
+    },
+    {
+      "name": "SchoolDisability",
+      "type": "nvarchar"
+    },
+    {
+      "name": "SourceSchoolDisability",
+      "type": "nvarchar"
+    },
+    {
+      "name": "IsOpenSchool",
+      "type": "bit"
+    },
+    {
+      "name": "IsInformalSchool",
+      "type": "bit"
+    },
+    {
+      "name": "IsMerged",
+      "type": "bit"
+    },
+    {
+      "name": "MergedTo",
+      "type": "bigint"
+    },
+    {
+      "name": "MergedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "MergedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsClosed",
+      "type": "bit"
+    },
+    {
+      "name": "ClosedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ClosedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    }
+  ],
+  "dbo.Organizations": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "OrganizationName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "OrganizationCode",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Address",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ContactNumber",
+      "type": "nvarchar"
+    },
+    {
+      "name": "OtherContactNumber",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Email",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ProvinceId",
+      "type": "int"
+    },
+    {
+      "name": "DistrictId",
+      "type": "int"
+    },
+    {
+      "name": "MunicipalityId",
+      "type": "int"
+    },
+    {
+      "name": "Ward",
+      "type": "int"
+    },
+    {
+      "name": "IsVerified",
+      "type": "bit"
+    },
+    {
+      "name": "VerifiedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "VerifiedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "OrganizationCodeAssignedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "OrganizationCodeAssignedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    },
+    {
+      "name": "AccountNumber",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ContactPerson",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ContactPersonNumber",
+      "type": "nvarchar"
+    },
+    {
+      "name": "EcdApprovalDate",
+      "type": "datetime2"
+    },
+    {
+      "name": "EcdNumber",
+      "type": "int"
+    },
+    {
+      "name": "HSEBCode",
+      "type": "nvarchar"
+    },
+    {
+      "name": "HigherSecondaryApprovalDate",
+      "type": "datetime2"
+    },
+    {
+      "name": "Latitude",
+      "type": "float"
+    },
+    {
+      "name": "Longitude",
+      "type": "float"
+    },
+    {
+      "name": "LowerSecondaryApprovalDate",
+      "type": "datetime2"
+    },
+    {
+      "name": "PrimaryApprovalDate",
+      "type": "datetime2"
+    },
+    {
+      "name": "SchoolBasedEcdNumber",
+      "type": "int"
+    },
+    {
+      "name": "SeeCode",
+      "type": "nvarchar"
+    },
+    {
+      "name": "SecondaryApprovalDate",
+      "type": "datetime2"
+    },
+    {
+      "name": "ClassRegisteredUpto",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Altitude",
+      "type": "nvarchar"
+    },
+    {
+      "name": "MergedWith",
+      "type": "bigint"
+    },
+    {
+      "name": "Tmis",
+      "type": "nvarchar"
+    },
+    {
+      "name": "EcdApprovalDateNp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "HigherSecondaryApprovalDateNp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "LowerSecondaryApprovalDateNp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "PrimaryApprovalDateNp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "SecondaryApprovalDateNp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "OrganizationTypeId",
+      "type": "int"
+    },
+    {
+      "name": "BankId",
+      "type": "int"
+    },
+    {
+      "name": "ContactPersonEmail",
+      "type": "nvarchar"
+    },
+    {
+      "name": "GrantReceivingType",
+      "type": "int"
+    },
+    {
+      "name": "HasEcdLevel",
+      "type": "bit"
+    },
+    {
+      "name": "HasHigherSecondaryLevel",
+      "type": "bit"
+    },
+    {
+      "name": "HasTechnicalStream",
+      "type": "bit"
+    },
+    {
+      "name": "HasLowerSecondaryLevel",
+      "type": "bit"
+    },
+    {
+      "name": "HasPrimaryLevel",
+      "type": "bit"
+    },
+    {
+      "name": "HasScienceInHigherSecondaryLevel",
+      "type": "bit"
+    },
+    {
+      "name": "HasSecondaryLevel",
+      "type": "bit"
+    },
+    {
+      "name": "IsPricipalTeachingStudent",
+      "type": "bit"
+    },
+    {
+      "name": "PrincipalCaste",
+      "type": "int"
+    },
+    {
+      "name": "PrincipalGender",
+      "type": "nvarchar"
+    },
+    {
+      "name": "PrincipalQualification",
+      "type": "int"
+    },
+    {
+      "name": "SelectedAsExcellentFromCehrd",
+      "type": "bit"
+    },
+    {
+      "name": "Tole",
+      "type": "nvarchar"
+    },
+    {
+      "name": "TechnicalStreamDetails",
+      "type": "nvarchar"
+    },
+    {
+      "name": "HasGunasoProvisioning",
+      "type": "bit"
+    },
+    {
+      "name": "AffiliatedAbroad",
+      "type": "bit"
+    },
+    {
+      "name": "OrganizationSubTypeId",
+      "type": "int"
+    },
+    {
+      "name": "IsSchoolTypeForHandicapped",
+      "type": "bit"
+    },
+    {
+      "name": "SchoolDisability",
+      "type": "nvarchar"
+    },
+    {
+      "name": "SchoolTypeForHandicapped",
+      "type": "int"
+    },
+    {
+      "name": "SourceSchoolDisability",
+      "type": "nvarchar"
+    },
+    {
+      "name": "IsOpenSchool",
+      "type": "bit"
+    },
+    {
+      "name": "IsMerged",
+      "type": "bit"
+    },
+    {
+      "name": "MergedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "MergedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "MergedTo",
+      "type": "bigint"
+    },
+    {
+      "name": "Elevation",
+      "type": "float"
+    },
+    {
+      "name": "ClosedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ClosedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsClosed",
+      "type": "bit"
+    },
+    {
+      "name": "IsInformalSchool",
+      "type": "bit"
+    }
+  ],
+  "dbo.PMTEntryDetails": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "TotalFamilyMembers",
+      "type": "int"
+    },
+    {
+      "name": "SleepingRoomCount",
+      "type": "int"
+    },
+    {
+      "name": "WashRoomCount",
+      "type": "int"
+    },
+    {
+      "name": "MembersLivingInRent",
+      "type": "int"
+    },
+    {
+      "name": "MembersLivingInOwnHome",
+      "type": "int"
+    },
+    {
+      "name": "MembersLivingOutsideHome",
+      "type": "int"
+    },
+    {
+      "name": "OtherRoomCount",
+      "type": "int"
+    },
+    {
+      "name": "NonDisabledMemberCount",
+      "type": "int"
+    },
+    {
+      "name": "SittingEatingRoomCount",
+      "type": "int"
+    },
+    {
+      "name": "PoorIdentificationType",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ToiletStatus",
+      "type": "nvarchar"
+    },
+    {
+      "name": "NineteenTo45AgeCount",
+      "type": "int"
+    },
+    {
+      "name": "MembersUnemployed",
+      "type": "int"
+    },
+    {
+      "name": "MultipurposeUsageRoomCount",
+      "type": "int"
+    },
+    {
+      "name": "ZeroTo18AgeCount",
+      "type": "int"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    },
+    {
+      "name": "StudentClassHistoryId",
+      "type": "bigint"
+    },
+    {
+      "name": "Above65AgeCount",
+      "type": "int"
+    },
+    {
+      "name": "ApprovedByWardPersonName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ApprovedByWardPersonPost",
+      "type": "nvarchar"
+    },
+    {
+      "name": "BusinessRoomCount",
+      "type": "int"
+    },
+    {
+      "name": "CeilingConstructionMaterialUsed",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ConstructionMaterialUsed",
+      "type": "nvarchar"
+    },
+    {
+      "name": "CreatedDateNp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DisabledMemberCount",
+      "type": "int"
+    },
+    {
+      "name": "DistanceFromHomeToWardOffice",
+      "type": "int"
+    },
+    {
+      "name": "FemaleCount",
+      "type": "int"
+    },
+    {
+      "name": "FortySixTo64AgeCount",
+      "type": "int"
+    },
+    {
+      "name": "GarbageManagementStatus",
+      "type": "nvarchar"
+    },
+    {
+      "name": "GasStatus",
+      "type": "nvarchar"
+    },
+    {
+      "name": "HasAc",
+      "type": "bit"
+    },
+    {
+      "name": "HasFourWheeler",
+      "type": "bit"
+    },
+    {
+      "name": "HasFridge",
+      "type": "bit"
+    },
+    {
+      "name": "HasLaptop",
+      "type": "bit"
+    },
+    {
+      "name": "HasTwoWheeler",
+      "type": "bit"
+    },
+    {
+      "name": "HasWashingMachine",
+      "type": "bit"
+    },
+    {
+      "name": "HouseOwnerCandidate",
+      "type": "nvarchar"
+    },
+    {
+      "name": "HouseOwnerEducationStatus",
+      "type": "nvarchar"
+    },
+    {
+      "name": "HouseOwnerMaritalStatus",
+      "type": "nvarchar"
+    },
+    {
+      "name": "KitchenCount",
+      "type": "int"
+    },
+    {
+      "name": "MajorSourceOfDrinkingWater",
+      "type": "nvarchar"
+    },
+    {
+      "name": "MajorSourceOfLight",
+      "type": "nvarchar"
+    },
+    {
+      "name": "MaleCount",
+      "type": "int"
+    },
+    {
+      "name": "MembersInGovernmentJob",
+      "type": "int"
+    },
+    {
+      "name": "MembersInPrivateFirm",
+      "type": "int"
+    },
+    {
+      "name": "MembersInSelfEmployment",
+      "type": "int"
+    },
+    {
+      "name": "MembersLivingAbroad",
+      "type": "int"
+    },
+    {
+      "name": "PoorIdentificationNumber",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Class",
+      "type": "nvarchar"
+    },
+    {
+      "name": "OrganizationId",
+      "type": "bigint"
+    },
+    {
+      "name": "StudentInformationId",
+      "type": "bigint"
+    },
+    {
+      "name": "Year",
+      "type": "bigint"
+    },
+    {
+      "name": "JanJatiCode",
+      "type": "nvarchar"
+    },
+    {
+      "name": "PoorIdentificationFileName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "PoorIdentificationFilePath",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Above65AgeCountMarks",
+      "type": "float"
+    },
+    {
+      "name": "CeilingConstructionMaterialUsedMarks",
+      "type": "float"
+    },
+    {
+      "name": "ConstantOfRegression",
+      "type": "float"
+    },
+    {
+      "name": "ConstructionMaterialUsedMarks",
+      "type": "float"
+    },
+    {
+      "name": "DisabledMemberCountMarks",
+      "type": "float"
+    },
+    {
+      "name": "DistanceFromHomeToWardOfficeMarks",
+      "type": "float"
+    },
+    {
+      "name": "GarbageManagementStatusMarks",
+      "type": "float"
+    },
+    {
+      "name": "GasStatusMarks",
+      "type": "float"
+    },
+    {
+      "name": "HasAcMarks",
+      "type": "float"
+    },
+    {
+      "name": "HasFourWheelerMarks",
+      "type": "float"
+    },
+    {
+      "name": "HasFridgeMarks",
+      "type": "float"
+    },
+    {
+      "name": "HasLaptopMarks",
+      "type": "float"
+    },
+    {
+      "name": "HasTwoWheelerMarks",
+      "type": "float"
+    },
+    {
+      "name": "HasWashingMachineMarks",
+      "type": "float"
+    },
+    {
+      "name": "HouseOwnerCandidateMarks",
+      "type": "float"
+    },
+    {
+      "name": "HouseOwnerEducationStatusMarks",
+      "type": "float"
+    },
+    {
+      "name": "HouseOwnerMaritalStatusMarks",
+      "type": "float"
+    },
+    {
+      "name": "MajorSourceOfDrinkingWaterMarks",
+      "type": "float"
+    },
+    {
+      "name": "MajorSourceOfLightMarks",
+      "type": "float"
+    },
+    {
+      "name": "MembersInGovernmentJobMarks",
+      "type": "float"
+    },
+    {
+      "name": "MembersLivingAbroadMarks",
+      "type": "float"
+    },
+    {
+      "name": "MembersLivingOutsideHomeMarks",
+      "type": "float"
+    },
+    {
+      "name": "Quartile",
+      "type": "int"
+    },
+    {
+      "name": "RuralMuniciplaityMarks",
+      "type": "float"
+    },
+    {
+      "name": "ToiletStatusMarks",
+      "type": "float"
+    },
+    {
+      "name": "TotalCalculateMarks",
+      "type": "decimal"
+    },
+    {
+      "name": "TotalFamilyMemberMarks",
+      "type": "float"
+    },
+    {
+      "name": "TotalRoomMarks",
+      "type": "float"
+    },
+    {
+      "name": "ZeroTo18AgeCountMarks",
+      "type": "float"
+    }
+  ],
+  "dbo.PMTMarkSettings": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "Year",
+      "type": "int"
+    },
+    {
+      "name": "ProvinceId",
+      "type": "int"
+    },
+    {
+      "name": "CofficientVariableName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "CofficientVaraiableValue",
+      "type": "decimal"
+    },
+    {
+      "name": "CofficientCondition",
+      "type": "nvarchar"
+    },
+    {
+      "name": "CofficientType",
+      "type": "nvarchar"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    }
+  ],
+  "dbo.PMTStudents": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "District",
+      "type": "nvarchar"
+    },
+    {
+      "name": "LocalLevel",
+      "type": "nvarchar"
+    },
+    {
+      "name": "SchoolName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "SchoolCode",
+      "type": "nvarchar"
+    },
+    {
+      "name": "RegistrationNumber",
+      "type": "nvarchar"
+    },
+    {
+      "name": "StudentName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Gender",
+      "type": "nvarchar"
+    },
+    {
+      "name": "FatherName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "FatherContactNumber",
+      "type": "nvarchar"
+    },
+    {
+      "name": "MotherName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "MotherContactNumber",
+      "type": "nvarchar"
+    },
+    {
+      "name": "GuardianName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "GuardianContactNumber",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Class",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Score",
+      "type": "decimal"
+    },
+    {
+      "name": "Quantile",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Year",
+      "type": "int"
+    },
+    {
+      "name": "Branch",
+      "type": "nvarchar"
+    },
+    {
+      "name": "AccountNumber",
+      "type": "nvarchar"
+    },
+    {
+      "name": "CurrentSchoolId",
+      "type": "bigint"
+    },
+    {
+      "name": "CurrentClass",
+      "type": "nvarchar"
+    },
+    {
+      "name": "CurrentRegistrationNumber",
+      "type": "nvarchar"
+    },
+    {
+      "name": "CurrentSubjectId",
+      "type": "int"
+    },
+    {
+      "name": "Status",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Remarks",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ChequeImagePath",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ChequeImageName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "PaymentStatus",
+      "type": "nvarchar"
+    },
+    {
+      "name": "VerifiedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    },
+    {
+      "name": "StudentInformationId",
+      "type": "bigint"
+    },
+    {
+      "name": "IsVerified",
+      "type": "bit"
+    },
+    {
+      "name": "VerifiedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "DistrictId",
+      "type": "int"
+    },
+    {
+      "name": "BankId",
+      "type": "int"
+    },
+    {
+      "name": "PreviousGpa",
+      "type": "decimal"
+    }
+  ],
+  "dbo.PalikaBudgetEntryFormDetails": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "Year",
+      "type": "int"
+    },
+    {
+      "name": "MunicipalityId",
+      "type": "int"
+    },
+    {
+      "name": "TotalSansthagatSchool",
+      "type": "int"
+    },
+    {
+      "name": "EducationRunningInNationalLanguageSchoolCount",
+      "type": "int"
+    },
+    {
+      "name": "Khula_M_9To10School",
+      "type": "int"
+    },
+    {
+      "name": "TotalRunningChildEducationAtLocalLevel",
+      "type": "int"
+    },
+    {
+      "name": "SchoolCount_Permitted_LocalLevel",
+      "type": "int"
+    },
+    {
+      "name": "TotalSchoolNotUpdatingIEMIS",
+      "type": "int"
+    },
+    {
+      "name": "Khula_A_6To8School",
+      "type": "int"
+    },
+    {
+      "name": "Technical_Getting_Grant",
+      "type": "int"
+    },
+    {
+      "name": "Technical_Getting_LocalGrant",
+      "type": "int"
+    },
+    {
+      "name": "NonOfficial_A_1To5",
+      "type": "int"
+    },
+    {
+      "name": "NonOfficial_A_6To8",
+      "type": "int"
+    },
+    {
+      "name": "NonOfficial_M_1To10",
+      "type": "int"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    },
+    {
+      "name": "MultiClassMultiEducationUsingSchoolCount",
+      "type": "int"
+    },
+    {
+      "name": "MultiLingualEducationRunningSchoolCount",
+      "type": "int"
+    },
+    {
+      "name": "SchoolCount_Permitted_Gisika",
+      "type": "int"
+    },
+    {
+      "name": "IsApprovedAtLocalLevelEducationProgram",
+      "type": "bit"
+    },
+    {
+      "name": "IsApprovedLocalLevelEducationProgram_Uploaded",
+      "type": "bit"
+    },
+    {
+      "name": "IsRunningChildEducationAtLocalLevel",
+      "type": "bit"
+    },
+    {
+      "name": "BudgetForEducation",
+      "type": "decimal"
+    },
+    {
+      "name": "BudgetForEducationExceptGrant",
+      "type": "decimal"
+    },
+    {
+      "name": "LocalLevelTotalBudget",
+      "type": "decimal"
+    },
+    {
+      "name": "ImageName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ImagePath",
+      "type": "nvarchar"
+    }
+  ],
+  "dbo.PalikaBudgetFormTeacherInformations": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "PalikaBudgetEntryFormDetailId",
+      "type": "bigint"
+    },
+    {
+      "name": "TeacherLevel",
+      "type": "int"
+    },
+    {
+      "name": "TeacherRank",
+      "type": "int"
+    },
+    {
+      "name": "Value",
+      "type": "int"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    }
+  ],
+  "dbo.Permissions": [
+    {
+      "name": "Id",
+      "type": "int"
+    },
+    {
+      "name": "PermissionName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DisplayName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsActive",
+      "type": "bit"
+    },
+    {
+      "name": "ModuleId",
+      "type": "int"
+    },
+    {
+      "name": "ParentPermissionId",
+      "type": "int"
+    }
+  ],
+  "dbo.PhysicalInfrastructures": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "PlaceAtCurrentSide",
+      "type": "nvarchar"
+    },
+    {
+      "name": "PlaceHomeCountAtCurrentSide",
+      "type": "int"
+    },
+    {
+      "name": "DistanceToPlaceInMetres",
+      "type": "decimal"
+    },
+    {
+      "name": "MajorCaste",
+      "type": "int"
+    },
+    {
+      "name": "ChildAgeGroupGoingSchool",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ChildGoingSchoolCount",
+      "type": "int"
+    },
+    {
+      "name": "ChildUnableToReachSchoolCount",
+      "type": "int"
+    },
+    {
+      "name": "SchoolToPlaceRoadCondition",
+      "type": "int"
+    },
+    {
+      "name": "HasRiverOnWay",
+      "type": "bit"
+    },
+    {
+      "name": "NeighbouringSchoolDetails",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Direction",
+      "type": "nvarchar"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    },
+    {
+      "name": "OrganizationId",
+      "type": "bigint"
+    }
+  ],
+  "dbo.ProposedSites": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "HasSpaceForStoringConstructionMaterials",
+      "type": "bit"
+    },
+    {
+      "name": "HasEnoughWaterForConstructionActivities",
+      "type": "bit"
+    },
+    {
+      "name": "HasSpaceForNewBuildingConstruction",
+      "type": "bit"
+    },
+    {
+      "name": "HasAltSolutionToRunClassIfCurrentBuildingIsDemolished",
+      "type": "bit"
+    },
+    {
+      "name": "TotalLandArea",
+      "type": "decimal"
+    },
+    {
+      "name": "Terrain",
+      "type": "int"
+    },
+    {
+      "name": "LandShape",
+      "type": "int"
+    },
+    {
+      "name": "HasFutureExpansionPossibility",
+      "type": "bit"
+    },
+    {
+      "name": "CanHaveInvoluntarySettlementDueToNewConstruction",
+      "type": "bit"
+    },
+    {
+      "name": "InvoluntarySettlementApproximateCount",
+      "type": "int"
+    },
+    {
+      "name": "NeedCut",
+      "type": "bit"
+    },
+    {
+      "name": "NeedFill",
+      "type": "bit"
+    },
+    {
+      "name": "NeedRetailingWall",
+      "type": "bit"
+    },
+    {
+      "name": "NeedAccessRoad",
+      "type": "bit"
+    },
+    {
+      "name": "NeedTreeBushClearance",
+      "type": "bit"
+    },
+    {
+      "name": "NeedBoundaryWall",
+      "type": "bit"
+    },
+    {
+      "name": "SoilToBeCut",
+      "type": "decimal"
+    },
+    {
+      "name": "SoilToBeFilled",
+      "type": "decimal"
+    },
+    {
+      "name": "TreeBushCuttingOrClearanceVolumeType",
+      "type": "nvarchar"
+    },
+    {
+      "name": "TreeBushCuttingOrClearanceVolume",
+      "type": "decimal"
+    },
+    {
+      "name": "LengthOfRetainingWall",
+      "type": "decimal"
+    },
+    {
+      "name": "TypeOfRetainingWall",
+      "type": "int"
+    },
+    {
+      "name": "OtherRetainingWall",
+      "type": "nvarchar"
+    },
+    {
+      "name": "LengthOfBoundaryWall",
+      "type": "decimal"
+    },
+    {
+      "name": "TypeOfBoundaryWall",
+      "type": "int"
+    },
+    {
+      "name": "OtherBoundaryWall",
+      "type": "nvarchar"
+    },
+    {
+      "name": "AccessRoadToBeBuilt",
+      "type": "decimal"
+    },
+    {
+      "name": "HasLandOwnershipCertificate",
+      "type": "bit"
+    },
+    {
+      "name": "Remarks",
+      "type": "nvarchar"
+    },
+    {
+      "name": "LocalMaterials",
+      "type": "nvarchar"
+    },
+    {
+      "name": "AdditionalFeatures",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Fenestration",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Landscaping",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Others",
+      "type": "nvarchar"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    },
+    {
+      "name": "OrganizationId",
+      "type": "bigint"
+    },
+    {
+      "name": "AltSolutionToRunClassIfCurrentBuildingIsDemolishedRemarks",
+      "type": "nvarchar"
+    },
+    {
+      "name": "EnoughWaterForConstructionActivitiesRemarks",
+      "type": "nvarchar"
+    },
+    {
+      "name": "SpaceForNewBuildingConstructionRemarks",
+      "type": "nvarchar"
+    },
+    {
+      "name": "SpaceForStoringConstructionMaterialsRemarks",
+      "type": "nvarchar"
+    },
+    {
+      "name": "LandCertificationLetterAction",
+      "type": "int"
+    },
+    {
+      "name": "NumberOfAccessRoadToBeBuilt",
+      "type": "int"
+    }
+  ],
+  "dbo.Province": [
+    {
+      "name": "Id",
+      "type": "int"
+    },
+    {
+      "name": "ProvinceName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "IsActive",
+      "type": "bit"
+    },
+    {
+      "name": "Code",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ProvinceNameNp",
+      "type": "nvarchar"
+    }
+  ],
+  "dbo.ReALPalikaLevelTrainings": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "MunicipalityId",
+      "type": "int"
+    },
+    {
+      "name": "OrganizationId",
+      "type": "bigint"
+    },
+    {
+      "name": "OrganizationName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "FullName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Gender",
+      "type": "nvarchar"
+    },
+    {
+      "name": "TrainingBy",
+      "type": "int"
+    },
+    {
+      "name": "Position",
+      "type": "nvarchar"
+    },
+    {
+      "name": "TrainingStartDate",
+      "type": "datetime2"
+    },
+    {
+      "name": "TrainingEndDate",
+      "type": "datetime2"
+    },
+    {
+      "name": "TrainingStartDateNp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "TrainingEndDateNp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Remarks",
+      "type": "nvarchar"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    },
+    {
+      "name": "StaffInformationId",
+      "type": "bigint"
+    }
+  ],
+  "dbo.ReALReportingMarksEntryDetails": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "DisasterTypeId",
+      "type": "int"
+    },
+    {
+      "name": "StudentInformationId",
+      "type": "bigint"
+    },
+    {
+      "name": "CurrentOrganizationId",
+      "type": "bigint"
+    },
+    {
+      "name": "CurrentClass",
+      "type": "nvarchar"
+    },
+    {
+      "name": "EngMarksBeforeIntervention",
+      "type": "float"
+    },
+    {
+      "name": "EngMarksAfterIntervention",
+      "type": "float"
+    },
+    {
+      "name": "NepMarksBeforeIntervention",
+      "type": "float"
+    },
+    {
+      "name": "NepMarksAfterIntervention",
+      "type": "float"
+    },
+    {
+      "name": "MathMarksBeforeIntervention",
+      "type": "float"
+    },
+    {
+      "name": "MathMarksAfterIntervention",
+      "type": "float"
+    },
+    {
+      "name": "ScienceMarksBeforeIntervention",
+      "type": "float"
+    },
+    {
+      "name": "ScienceMarksAfterIntervention",
+      "type": "float"
+    },
+    {
+      "name": "InterventionDate",
+      "type": "datetime2"
+    },
+    {
+      "name": "InterventionDateNp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "BaselineSurveyDate",
+      "type": "datetime2"
+    },
+    {
+      "name": "BaselineSurveyDateNp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "EndlineSurveyDate",
+      "type": "datetime2"
+    },
+    {
+      "name": "EndlineSurveyDateNp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "IsEndlineProcessed",
+      "type": "bit"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    },
+    {
+      "name": "Remarks",
+      "type": "nvarchar"
+    },
+    {
+      "name": "StaffId",
+      "type": "bigint"
+    },
+    {
+      "name": "FinalizedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "FinalizedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CurrentYear",
+      "type": "int"
+    },
+    {
+      "name": "Interventions",
+      "type": "nvarchar"
+    },
+    {
+      "name": "StudentClassHistoryId",
+      "type": "bigint"
+    }
+  ],
+  "dbo.ReALStudentInterventionAsPerSOPGDetails": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "ReALReportingMarksEntryDetailId",
+      "type": "bigint"
+    },
+    {
+      "name": "QuestionnaireId",
+      "type": "bigint"
+    },
+    {
+      "name": "Value",
+      "type": "bit"
+    },
+    {
+      "name": "Remarks",
+      "type": "nvarchar"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    },
+    {
+      "name": "QuestionStatement",
+      "type": "nvarchar"
+    }
+  ],
+  "dbo.RefreshTokens": [
+    {
+      "name": "Token",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UserId",
+      "type": "nvarchar"
+    },
+    {
+      "name": "RefreshKey",
+      "type": "nvarchar"
+    },
+    {
+      "name": "CookieName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ExpiresOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    }
+  ],
+  "dbo.ResultPublish": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "Year",
+      "type": "int"
+    },
+    {
+      "name": "PublishDate",
+      "type": "datetime2"
+    },
+    {
+      "name": "ClassId",
+      "type": "nvarchar"
+    },
+    {
+      "name": "MunicipalityId",
+      "type": "int"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    },
+    {
+      "name": "PublishDateNp",
+      "type": "nvarchar"
+    }
+  ],
+  "dbo.SMCEntry": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "OrganizationId",
+      "type": "bigint"
+    },
+    {
+      "name": "FullName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Address",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ContactNumber",
+      "type": "nvarchar"
+    },
+    {
+      "name": "SMCPosition",
+      "type": "nvarchar"
+    },
+    {
+      "name": "TenureStartDate",
+      "type": "datetime2"
+    },
+    {
+      "name": "TenureStartDateNepali",
+      "type": "nvarchar"
+    },
+    {
+      "name": "TenureEndDate",
+      "type": "datetime2"
+    },
+    {
+      "name": "TenureEndDateNepali",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Remarks",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ImagePath",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ImageName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    },
+    {
+      "name": "IsPta",
+      "type": "bit"
+    }
+  ],
+  "dbo.SchoolBlockWiseRoomDetails": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "SchoolBlockId",
+      "type": "bigint"
+    },
+    {
+      "name": "Room",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Utilization",
+      "type": "int"
+    },
+    {
+      "name": "Length",
+      "type": "float"
+    },
+    {
+      "name": "Breadth",
+      "type": "float"
+    },
+    {
+      "name": "NumberOfRecentUsers",
+      "type": "int"
+    },
+    {
+      "name": "Remarks",
+      "type": "nvarchar"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    },
+    {
+      "name": "SubUtilization",
+      "type": "int"
+    }
+  ],
+  "dbo.SchoolBlocks": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "OrganizationId",
+      "type": "bigint"
+    },
+    {
+      "name": "BlockNumber",
+      "type": "int"
+    },
+    {
+      "name": "NumberOfStory",
+      "type": "int"
+    },
+    {
+      "name": "BlockName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "NumberOfClassRoom",
+      "type": "int"
+    },
+    {
+      "name": "NumberOfOtherRoom",
+      "type": "int"
+    },
+    {
+      "name": "YearOfConstruction",
+      "type": "int"
+    },
+    {
+      "name": "StructureType",
+      "type": "int"
+    },
+    {
+      "name": "RoofType",
+      "type": "int"
+    },
+    {
+      "name": "DamageGrade",
+      "type": "int"
+    },
+    {
+      "name": "ResourceType",
+      "type": "int"
+    },
+    {
+      "name": "FundingSource",
+      "type": "int"
+    },
+    {
+      "name": "OverallCondition",
+      "type": "int"
+    },
+    {
+      "name": "InterventionType",
+      "type": "int"
+    },
+    {
+      "name": "IsApprovedDesign",
+      "type": "bit"
+    },
+    {
+      "name": "OtherRoofType",
+      "type": "nvarchar"
+    },
+    {
+      "name": "OtherStructureType",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Remarks",
+      "type": "nvarchar"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    },
+    {
+      "name": "InvestmentAmount",
+      "type": "float"
+    },
+    {
+      "name": "AllToiletFunctional",
+      "type": "bit"
+    },
+    {
+      "name": "CommentOnCleanliness",
+      "type": "nvarchar"
+    },
+    {
+      "name": "FacilityNotWorking",
+      "type": "nvarchar"
+    },
+    {
+      "name": "NumberOfGirlsToilet",
+      "type": "int"
+    },
+    {
+      "name": "NumberOfBoysToilet",
+      "type": "int"
+    },
+    {
+      "name": "CompletionDate",
+      "type": "datetime2"
+    },
+    {
+      "name": "CompletionDateNp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "CompletionStatus",
+      "type": "int"
+    },
+    {
+      "name": "HasCompletionCertificate",
+      "type": "bit"
+    }
+  ],
+  "dbo.StaffClassMappings": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "TeachingClass",
+      "type": "int"
+    },
+    {
+      "name": "IsSelected",
+      "type": "bit"
+    },
+    {
+      "name": "StaffQualificationId",
+      "type": "bigint"
+    }
+  ],
+  "dbo.StaffExperiences": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "AppointmentDate",
+      "type": "datetime2"
+    },
+    {
+      "name": "AppointmentDecisionDate",
+      "type": "datetime2"
+    },
+    {
+      "name": "AttendanceStartDate",
+      "type": "datetime2"
+    },
+    {
+      "name": "GradeNumber",
+      "type": "nvarchar"
+    },
+    {
+      "name": "GradePrice",
+      "type": "nvarchar"
+    },
+    {
+      "name": "TeacherType",
+      "type": "int"
+    },
+    {
+      "name": "RankId",
+      "type": "int"
+    },
+    {
+      "name": "LevelId",
+      "type": "int"
+    },
+    {
+      "name": "Position",
+      "type": "int"
+    },
+    {
+      "name": "ProvinceId",
+      "type": "int"
+    },
+    {
+      "name": "DistrictId",
+      "type": "int"
+    },
+    {
+      "name": "MunicipalityId",
+      "type": "int"
+    },
+    {
+      "name": "Ward",
+      "type": "int"
+    },
+    {
+      "name": "OrganizationId",
+      "type": "bigint"
+    },
+    {
+      "name": "StaffInformationId",
+      "type": "bigint"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    },
+    {
+      "name": "AppointmentType",
+      "type": "int"
+    },
+    {
+      "name": "AppointmentedSubject",
+      "type": "int"
+    },
+    {
+      "name": "SanchitBiramiBidaTillDate",
+      "type": "float"
+    },
+    {
+      "name": "TeachingClass",
+      "type": "nvarchar"
+    },
+    {
+      "name": "TeachingSubject",
+      "type": "int"
+    },
+    {
+      "name": "Tole",
+      "type": "nvarchar"
+    }
+  ],
+  "dbo.StaffInformations": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "FirstName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "MiddleName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "LastName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "FullName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Dob",
+      "type": "datetime2"
+    },
+    {
+      "name": "DobNepali",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ContactNumber",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Training",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ImagePath",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ImageName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "OrganizationId",
+      "type": "bigint"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    },
+    {
+      "name": "Address",
+      "type": "nvarchar"
+    },
+    {
+      "name": "CasteId",
+      "type": "int"
+    },
+    {
+      "name": "CitNumber",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DisabilityId",
+      "type": "int"
+    },
+    {
+      "name": "FatherName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "LicenseNumber",
+      "type": "nvarchar"
+    },
+    {
+      "name": "MotherName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "PFNumber",
+      "type": "nvarchar"
+    },
+    {
+      "name": "SpouseName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "TeacherType",
+      "type": "int"
+    },
+    {
+      "name": "WillPerson",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Year",
+      "type": "int"
+    },
+    {
+      "name": "CitizenshipNumber",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Gender",
+      "type": "nvarchar"
+    },
+    {
+      "name": "BankAccountNumber",
+      "type": "nvarchar"
+    },
+    {
+      "name": "BankName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DistrictId",
+      "type": "int"
+    },
+    {
+      "name": "Email",
+      "type": "nvarchar"
+    },
+    {
+      "name": "InsuranceNumber",
+      "type": "nvarchar"
+    },
+    {
+      "name": "LevelId",
+      "type": "int"
+    },
+    {
+      "name": "MotherTongue",
+      "type": "int"
+    },
+    {
+      "name": "MunicipalityId",
+      "type": "int"
+    },
+    {
+      "name": "PANNumber",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Position",
+      "type": "int"
+    },
+    {
+      "name": "ProvinceId",
+      "type": "int"
+    },
+    {
+      "name": "RankId",
+      "type": "int"
+    },
+    {
+      "name": "TeachingLanguageId",
+      "type": "int"
+    },
+    {
+      "name": "Ward",
+      "type": "int"
+    },
+    {
+      "name": "NINNumber",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Type",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Tole",
+      "type": "nvarchar"
+    },
+    {
+      "name": "AppointmentStatus",
+      "type": "int"
+    },
+    {
+      "name": "AppointmentType",
+      "type": "int"
+    },
+    {
+      "name": "CitizenshipIssuedDistrict",
+      "type": "int"
+    },
+    {
+      "name": "HasDisability",
+      "type": "bit"
+    },
+    {
+      "name": "IsForeignTeacher",
+      "type": "bit"
+    },
+    {
+      "name": "PermDistrictId",
+      "type": "int"
+    },
+    {
+      "name": "PermMunicipalityId",
+      "type": "int"
+    },
+    {
+      "name": "PermProvinceId",
+      "type": "int"
+    },
+    {
+      "name": "PermTole",
+      "type": "nvarchar"
+    },
+    {
+      "name": "PermWard",
+      "type": "int"
+    },
+    {
+      "name": "SheetRollNumber",
+      "type": "nvarchar"
+    },
+    {
+      "name": "TeacherLevel",
+      "type": "int"
+    },
+    {
+      "name": "TeacherRank",
+      "type": "int"
+    },
+    {
+      "name": "UpadanKoshNumber",
+      "type": "nvarchar"
+    },
+    {
+      "name": "NiuktiTypeId",
+      "type": "int"
+    }
+  ],
+  "dbo.StaffQualifications": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "EducationLevelId",
+      "type": "int"
+    },
+    {
+      "name": "BoardId",
+      "type": "int"
+    },
+    {
+      "name": "PassedYear",
+      "type": "int"
+    },
+    {
+      "name": "StreamId",
+      "type": "int"
+    },
+    {
+      "name": "Division",
+      "type": "int"
+    },
+    {
+      "name": "StaffInformationId",
+      "type": "bigint"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    },
+    {
+      "name": "FacultyId",
+      "type": "int"
+    },
+    {
+      "name": "ForeignBoardCountry",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ForeignUniversityName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "IsForeignBoard",
+      "type": "bit"
+    }
+  ],
+  "dbo.StaffSubjectMappings": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "Subject",
+      "type": "int"
+    },
+    {
+      "name": "IsSelected",
+      "type": "bit"
+    },
+    {
+      "name": "StaffQualificationId",
+      "type": "bigint"
+    }
+  ],
+  "dbo.StudentClassHistory": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "OrganizationId",
+      "type": "bigint"
+    },
+    {
+      "name": "StudentInformationId",
+      "type": "bigint"
+    },
+    {
+      "name": "Class",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Year",
+      "type": "int"
+    },
+    {
+      "name": "UpgradedFrom",
+      "type": "nvarchar"
+    },
+    {
+      "name": "IsActive",
+      "type": "bit"
+    },
+    {
+      "name": "Status",
+      "type": "nvarchar"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    },
+    {
+      "name": "SymbolNumber",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Attendance",
+      "type": "int"
+    },
+    {
+      "name": "Stream",
+      "type": "int"
+    },
+    {
+      "name": "HasScholarship",
+      "type": "bit"
+    },
+    {
+      "name": "UseSchoolSpecificSubjectsOnly",
+      "type": "bit"
+    },
+    {
+      "name": "IsLockedForFinalResultEdit",
+      "type": "bit"
+    },
+    {
+      "name": "AverageGradePoint",
+      "type": "decimal"
+    },
+    {
+      "name": "DowngradeCount",
+      "type": "int"
+    },
+    {
+      "name": "HasAttendedExam",
+      "type": "bit"
+    },
+    {
+      "name": "IsNewEnrollment",
+      "type": "bit"
+    },
+    {
+      "name": "IsOpenSchoolStudent",
+      "type": "bit"
+    },
+    {
+      "name": "IsSourceSchoolHandicappedStudent",
+      "type": "bit"
+    },
+    {
+      "name": "IsTechnicalStream",
+      "type": "bit"
+    },
+    {
+      "name": "SourceSchoolStudentDisability",
+      "type": "int"
+    }
+  ],
+  "dbo.StudentDisabilityDetails": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "StudentInformationId",
+      "type": "bigint"
+    },
+    {
+      "name": "DisabilityType",
+      "type": "int"
+    },
+    {
+      "name": "Severity",
+      "type": "int"
+    },
+    {
+      "name": "Case",
+      "type": "int"
+    },
+    {
+      "name": "OtherCaseDetails",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Cause",
+      "type": "int"
+    },
+    {
+      "name": "OtherCauseDetails",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Remarks",
+      "type": "nvarchar"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    },
+    {
+      "name": "ImageName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ImagePath",
+      "type": "nvarchar"
+    }
+  ],
+  "dbo.StudentInformations": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "OrganizationId",
+      "type": "bigint"
+    },
+    {
+      "name": "InitialOrganizationId",
+      "type": "bigint"
+    },
+    {
+      "name": "StudentUniqueId",
+      "type": "nvarchar"
+    },
+    {
+      "name": "FirstName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "MiddleName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "LastName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "FullName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Gender",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Address",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Class",
+      "type": "nvarchar"
+    },
+    {
+      "name": "CurrentClass",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Caste",
+      "type": "int"
+    },
+    {
+      "name": "MotherTongue",
+      "type": "int"
+    },
+    {
+      "name": "AdmitYear",
+      "type": "int"
+    },
+    {
+      "name": "Dob",
+      "type": "datetime2"
+    },
+    {
+      "name": "DobNepali",
+      "type": "nvarchar"
+    },
+    {
+      "name": "MaxCount",
+      "type": "int"
+    },
+    {
+      "name": "Stream",
+      "type": "int"
+    },
+    {
+      "name": "DisabilityType",
+      "type": "int"
+    },
+    {
+      "name": "ECDType",
+      "type": "int"
+    },
+    {
+      "name": "SchoolingSource",
+      "type": "int"
+    },
+    {
+      "name": "Scholarship",
+      "type": "int"
+    },
+    {
+      "name": "ECDExperience",
+      "type": "bit"
+    },
+    {
+      "name": "Status",
+      "type": "bit"
+    },
+    {
+      "name": "ContactNumber",
+      "type": "nvarchar"
+    },
+    {
+      "name": "FatherName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "MotherName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ImagePath",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ImageName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    },
+    {
+      "name": "CurrentScholarship",
+      "type": "int"
+    },
+    {
+      "name": "CurrentYear",
+      "type": "int"
+    },
+    {
+      "name": "IsTransferred",
+      "type": "bit"
+    },
+    {
+      "name": "TransferredTo",
+      "type": "bigint"
+    },
+    {
+      "name": "PermanentDistrictId",
+      "type": "int"
+    },
+    {
+      "name": "PermanentMunicipalityId",
+      "type": "int"
+    },
+    {
+      "name": "PermanentProvinceId",
+      "type": "int"
+    },
+    {
+      "name": "PermanentTole",
+      "type": "nvarchar"
+    },
+    {
+      "name": "TemporaryDistrictId",
+      "type": "int"
+    },
+    {
+      "name": "TemporaryMunicipalityId",
+      "type": "int"
+    },
+    {
+      "name": "TemporaryProvinceId",
+      "type": "int"
+    },
+    {
+      "name": "TemporaryTole",
+      "type": "nvarchar"
+    },
+    {
+      "name": "PermanentWard",
+      "type": "int"
+    },
+    {
+      "name": "TemporaryWard",
+      "type": "int"
+    },
+    {
+      "name": "AdmissionDate",
+      "type": "datetime2"
+    },
+    {
+      "name": "AdmissionDateNepali",
+      "type": "nvarchar"
+    },
+    {
+      "name": "NationalIdNumber",
+      "type": "nvarchar"
+    },
+    {
+      "name": "IsForeignStudent",
+      "type": "bit"
+    },
+    {
+      "name": "GuardianName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "GuardianContactNumber",
+      "type": "nvarchar"
+    }
+  ],
+  "dbo.StudentMarks": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "StudentClassHistoryId",
+      "type": "bigint"
+    },
+    {
+      "name": "ClassAndSubjectMappingId",
+      "type": "bigint"
+    },
+    {
+      "name": "ExamTermId",
+      "type": "bigint"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    },
+    {
+      "name": "AchievedPercentage",
+      "type": "decimal"
+    },
+    {
+      "name": "CurrentFullWeightage",
+      "type": "decimal"
+    },
+    {
+      "name": "CurrentMajorThematicLearning",
+      "type": "decimal"
+    },
+    {
+      "name": "CurrentParticipation",
+      "type": "decimal"
+    },
+    {
+      "name": "CurrentPracticalOrProject",
+      "type": "decimal"
+    },
+    {
+      "name": "CurrentTotalOfFinalMarks",
+      "type": "decimal"
+    },
+    {
+      "name": "CurrentTotalOfTerms",
+      "type": "decimal"
+    },
+    {
+      "name": "Grade",
+      "type": "nvarchar"
+    },
+    {
+      "name": "IsAbsent",
+      "type": "bit"
+    },
+    {
+      "name": "LearningAchievementMarks",
+      "type": "decimal"
+    },
+    {
+      "name": "ObtainedLearningAchievementMarks",
+      "type": "decimal"
+    },
+    {
+      "name": "ObtainedParticipation",
+      "type": "decimal"
+    },
+    {
+      "name": "ObtainedPracticalOrProject",
+      "type": "decimal"
+    },
+    {
+      "name": "ObtainedTotalOfFinalMarks",
+      "type": "decimal"
+    },
+    {
+      "name": "ObtainedTotalOfTerms",
+      "type": "decimal"
+    },
+    {
+      "name": "SubjectName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "GradePoint",
+      "type": "decimal"
+    },
+    {
+      "name": "CreditHour",
+      "type": "decimal"
+    },
+    {
+      "name": "ExamTermNumber",
+      "type": "bigint"
+    },
+    {
+      "name": "ExternalGrade",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ExternalGradePoint",
+      "type": "decimal"
+    },
+    {
+      "name": "ExternalPercentage",
+      "type": "decimal"
+    },
+    {
+      "name": "TermInternalGrade",
+      "type": "nvarchar"
+    },
+    {
+      "name": "TermInternalGradePoint",
+      "type": "decimal"
+    },
+    {
+      "name": "TermInternalPercentage",
+      "type": "decimal"
+    },
+    {
+      "name": "DisplaySequence",
+      "type": "int"
+    },
+    {
+      "name": "PalikaLevelAddedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "PalikaLevelAddedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "PalikaLevelModifiedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "PalikaLevelModifiedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "SchoolLevelAddedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "SchoolLevelAddedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "SchoolLevelModifiedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "SchoolLevelModifiedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "GraceMarks",
+      "type": "decimal"
+    },
+    {
+      "name": "SubjectCode",
+      "type": "nvarchar"
+    }
+  ],
+  "dbo.StudentMaxCountSummary": [
+    {
+      "name": "OrganizationId",
+      "type": "bigint"
+    },
+    {
+      "name": "AdmitYear",
+      "type": "int"
+    },
+    {
+      "name": "LastCount",
+      "type": "int"
+    }
+  ],
+  "dbo.StudentScholarshipHistory": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "StudentClassHistoryId",
+      "type": "bigint"
+    },
+    {
+      "name": "Scholarship",
+      "type": "int"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    }
+  ],
+  "dbo.StudentTransferRecords": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "StudentInformationId",
+      "type": "bigint"
+    },
+    {
+      "name": "TransferredFrom",
+      "type": "bigint"
+    },
+    {
+      "name": "TransferredTo",
+      "type": "bigint"
+    },
+    {
+      "name": "TransferredFromClass",
+      "type": "nvarchar"
+    },
+    {
+      "name": "TransferredToClass",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Status",
+      "type": "int"
+    },
+    {
+      "name": "AcceptedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    }
+  ],
+  "dbo.StudentWiseAssistiveProducts": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "DisabilityQuestionnaireEntryInfotmationId",
+      "type": "bigint"
+    },
+    {
+      "name": "OrganizationId",
+      "type": "bigint"
+    },
+    {
+      "name": "StudentInformationId",
+      "type": "bigint"
+    },
+    {
+      "name": "StudentClassHistoryId",
+      "type": "bigint"
+    },
+    {
+      "name": "DisabilityType",
+      "type": "int"
+    },
+    {
+      "name": "RequiredQuantity",
+      "type": "int"
+    },
+    {
+      "name": "Remarks",
+      "type": "nvarchar"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    },
+    {
+      "name": "AssistiveProductId",
+      "type": "bigint"
+    },
+    {
+      "name": "DistributedQuantity",
+      "type": "int"
+    }
+  ],
+  "dbo.SubUtilizations": [
+    {
+      "name": "Id",
+      "type": "int"
+    },
+    {
+      "name": "UtilizationId",
+      "type": "int"
+    },
+    {
+      "name": "Name",
+      "type": "nvarchar"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    }
+  ],
+  "dbo.Subjects": [
+    {
+      "name": "Id",
+      "type": "int"
+    },
+    {
+      "name": "SubjectName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "SubjectDisplayName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    },
+    {
+      "name": "SubjectStream",
+      "type": "int"
+    },
+    {
+      "name": "SubjectType",
+      "type": "int"
+    },
+    {
+      "name": "MunicipalityId",
+      "type": "int"
+    },
+    {
+      "name": "Remarks",
+      "type": "nvarchar"
+    },
+    {
+      "name": "CreditHour",
+      "type": "decimal"
+    },
+    {
+      "name": "IsValidSubjectForAboveClass8",
+      "type": "bit"
+    },
+    {
+      "name": "Participation",
+      "type": "decimal"
+    },
+    {
+      "name": "PracticalOrProject",
+      "type": "decimal"
+    },
+    {
+      "name": "TotalOfFinalMarks",
+      "type": "decimal"
+    },
+    {
+      "name": "TotalOfTerms",
+      "type": "decimal"
+    }
+  ],
+  "dbo.TeacherTrainings": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "OrganizationId",
+      "type": "bigint"
+    },
+    {
+      "name": "FullName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Gender",
+      "type": "nvarchar"
+    },
+    {
+      "name": "EmailAddress",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ContactNumber",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Class",
+      "type": "nvarchar"
+    },
+    {
+      "name": "SubjectId",
+      "type": "int"
+    },
+    {
+      "name": "ProvinceId",
+      "type": "int"
+    },
+    {
+      "name": "DistrictId",
+      "type": "int"
+    },
+    {
+      "name": "MunicipalityId",
+      "type": "int"
+    },
+    {
+      "name": "TrainingStartDate",
+      "type": "datetime2"
+    },
+    {
+      "name": "TrainingEndDate",
+      "type": "datetime2"
+    },
+    {
+      "name": "TrainingStartDateNp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "TrainingEndDateNp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    },
+    {
+      "name": "StaffInformationId",
+      "type": "bigint"
+    },
+    {
+      "name": "IsStaffExperience",
+      "type": "bit"
+    },
+    {
+      "name": "Organizer",
+      "type": "nvarchar"
+    },
+    {
+      "name": "TrainingType",
+      "type": "int"
+    },
+    {
+      "name": "Year",
+      "type": "int"
+    },
+    {
+      "name": "SalarySourceId",
+      "type": "int"
+    },
+    {
+      "name": "Training",
+      "type": "nvarchar"
+    },
+    {
+      "name": "AppointmentDate",
+      "type": "datetime2"
+    },
+    {
+      "name": "AppointmentDateNp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "CertificationIssuedDate",
+      "type": "datetime2"
+    },
+    {
+      "name": "CertificationIssuedDateNp",
+      "type": "nvarchar"
+    },
+    {
+      "name": "Division",
+      "type": "int"
+    },
+    {
+      "name": "Duration",
+      "type": "int"
+    },
+    {
+      "name": "OtherTrainingName",
+      "type": "nvarchar"
+    },
+    {
+      "name": "TpdCompletedLevel",
+      "type": "nvarchar"
+    },
+    {
+      "name": "TpdNotCompletedLevel",
+      "type": "int"
+    },
+    {
+      "name": "TrainingCertificateNumber",
+      "type": "nvarchar"
+    },
+    {
+      "name": "TeachingLevel",
+      "type": "nvarchar"
+    },
+    {
+      "name": "TrainingName",
+      "type": "int"
+    },
+    {
+      "name": "TrainingStatus",
+      "type": "int"
+    },
+    {
+      "name": "IsReal",
+      "type": "bit"
+    }
+  ],
+  "dbo.TestTbl": [
+    {
+      "name": "Id",
+      "type": "int"
+    },
+    {
+      "name": "MunicipalityId",
+      "type": "int"
+    },
+    {
+      "name": "MunicipalityName",
+      "type": "varchar"
+    },
+    {
+      "name": "TotalMale",
+      "type": "int"
+    }
+  ],
+  "dbo.UserOrganizationMappings": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "UserId",
+      "type": "nvarchar"
+    },
+    {
+      "name": "OrganizationId",
+      "type": "bigint"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    }
+  ],
+  "dbo.UserRolePermissionMappings": [
+    {
+      "name": "Id",
+      "type": "bigint"
+    },
+    {
+      "name": "RoleId",
+      "type": "nvarchar"
+    },
+    {
+      "name": "PermissionId",
+      "type": "int"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "DeletedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    }
+  ],
+  "dbo.Utilizations": [
+    {
+      "name": "Id",
+      "type": "int"
+    },
+    {
+      "name": "Name",
+      "type": "nvarchar"
+    },
+    {
+      "name": "CreatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "CreatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "UpdatedBy",
+      "type": "nvarchar"
+    },
+    {
+      "name": "UpdatedOn",
+      "type": "datetime2"
+    },
+    {
+      "name": "IsDeleted",
+      "type": "bit"
+    }
+  ],
+  "dbo.__EFMigrationsHistory": [
+    {
+      "name": "MigrationId",
+      "type": "nvarchar"
+    },
+    {
+      "name": "ProductVersion",
+      "type": "nvarchar"
+    }
+  ],
+  "dbo.sysdiagrams": [
+    {
+      "name": "name",
+      "type": "nvarchar"
+    },
+    {
+      "name": "principal_id",
+      "type": "int"
+    },
+    {
+      "name": "diagram_id",
+      "type": "int"
+    },
+    {
+      "name": "version",
+      "type": "int"
+    },
+    {
+      "name": "definition",
+      "type": "varbinary"
+    }
+  ]
+}
